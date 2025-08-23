@@ -1,0 +1,196 @@
+{
+"storyThemes":[
+    {
+        "category":"How we Treat Others",
+        "description":"Stories about kindness, friendship, and caring for the people around us.",
+        "icon":"flask-green",
+        "themes":[
+            {"theme":"Friendship","description":""},
+            {"theme":"Kindness","description":""},
+            {"theme":"Respect","description":""},
+            {"theme":"Forgiveness","description":""},
+            {"theme":"Generosity","description":""},
+            {"theme":"Love","description":""}
+        ]
+    },
+    {
+        "category":"Being Brave & Strong",
+        "description":"Stories about facing fears, staying strong, and doing the right thing even when it's hard.",
+        "icon":"flask-orange",
+        "themes":[
+            {"theme":"Bravery","description":""},
+            {"theme":"Courage","description":""},
+            {"theme":"Perseverance","description":""},
+            {"theme":"Responsibility","description":""},
+            {"theme":"Patience","description":""}
+        ]
+    },
+    {
+        "category":"Teamwork & Honesty",
+        "description":"Stories about honesty, fairness, and working together as a team.",
+        "icon":"flask-blue",
+        "themes":[
+            {"theme":"Honesty","description":""},
+            {"theme":"Fairness","description":""},
+            {"theme":"Teamwork","description":""},
+            {"theme":"Hope","description":""}
+        ]
+    },
+    {
+        "category":"Discovery & Learning",
+        "description":"Stories that spark curiosity, imagination, and new ways of seeing the world.",
+        "icon":"flask-purple",
+        "themes":[
+            {"theme":"Curiosity","description":""},
+            {"theme":"Creativity","description":""},
+            {"theme":"Self-Discovery","description":""},
+            {"theme":"Gratitude","description":""},
+            {"theme":"Hope","description":""}
+        ]
+    }
+],
+"storyType":[
+    {"type":"Adventures","description":"","imageUrl":"/types/adventure.png","imageJustification":"left"},
+    {"type":"Heros & Villians","description":"","imageUrl":"/types/adventure.png","imageJustification":"right"},
+    {"type":"Sci-Fi & Futuristic","description":"","imageUrl":"/types/adventure.png","imageJustification":"left"},
+    {"type":"Mystery","description":"","imageUrl":"/types/mystery.png","imageJustification":"right"},
+    {"type":"Educational","description":"","imageUrl":"/types/educational.png","imageJustification":"left"},
+    {"type":"Silly & Funny","description":"","imageUrl":"/types/adventure.png","imageJustification":"right"},
+    {"type":"Fantasy","description":"","imageUrl":"/types/adventure.png","imageJustification":"left"},
+    {"type":"Friendship","description":"","imageUrl":"/types/adventure.png","imageJustification":"right"},
+    {"type":"Spooky Stories","description":"","imageUrl":"/types/greenmonster.png","imageJustification":"left"}
+],
+"locations":
+[
+{
+    "name":"Mission: Space",
+    "imageUrl":"/places/MissionSpace.png",
+    "places":[
+        {
+            "placeName":"UAP Spaceship",
+            "placeDescription":"A secretive alien spaceship"
+        },
+        {
+            "placeName":"Alien Hive",
+            "placeDescription":"A hive of aliens"
+        },
+                {
+            "placeName":"Galactic School",
+            "placeDescription":"A school, in space, where you learn how to become an astro hero!"
+        },
+                {
+            "placeName":"Moon Base 44",
+            "placeDescription":"A top-secret base on the dark side of the moon"
+        },
+                {
+            "placeName":"LV-312 Planet",
+            "placeDescription":"A planet 312 light years away with earthlike creatures."
+        },
+                {
+            "placeName":"Space Station",
+            "placeDescription":"United States Space Station for NASA"
+        }
+
+    ]
+},
+
+{
+    "name":"The Age of Dinosaurs",
+    "imageUrl":"/places/AgeOfDinosaurs.png",
+    "places":[
+        {
+            "placeName":"Lava Lands",
+            "placeDescription":"A tropical hawaiian islan inhabited by large dinosaurs"
+        },
+        {
+            "placeName":"Raptor's Den",
+            "placeDescription":"A carvnivouros den for the lafrgest bird predator"
+        },
+                {
+            "placeName":"Dinosaur Bay",
+            "placeDescription":"A nice beach where cave men go to surf."
+        },
+                {
+            "placeName":"Giggle Grove",
+            "placeDescription":"A teen hangout for funny dinosaurs and cave men."
+        },
+                {
+            "placeName":"Happy Hatchery",
+            "placeDescription":"A farm run by cave men who raise pteradactyls from egg"
+        },
+                {
+            "placeName":"Rainbow Falls",
+            "placeDescription":"A beautiful waterfall with rainbows in a land where everyone is happy."
+        }
+
+    ]
+},
+
+{
+    "name":"The Days of Miracles",
+    "imageUrl":"/places/DaysOfMiracles.png",
+    "places":[
+        {
+            "placeName":"Jerusalem",
+            "placeDescription":"The holy land"
+        },
+        {
+            "placeName":"Bethlehem",
+            "placeDescription":"The place where Jesus was born"
+        },
+                {
+            "placeName":"Jerihco",
+            "placeDescription":"A holy place where miracles where performed"
+        },
+                {
+            "placeName":"Fisherman's Bay",
+            "placeDescription":"A place where men catch fish in the holy land"
+        },
+                {
+            "placeName":"Golden Sand Dunes",
+            "placeDescription":"A desert where they spent 40 days and 40 nights"
+        },
+                {
+            "placeName":"Carpenters Workshop",
+            "placeDescription":"A place where men build things with their hands and manual tools. "
+        }
+
+    ]
+},
+
+{
+    "name":"Today's Adventures",
+    "imageUrl":"/places/TodaysAdventures.png",
+    "places":[
+        {
+            "placeName":"School",
+            "placeDescription":"A modern day school"
+        },
+        {
+            "placeName":"Backyard Campout",
+            "placeDescription":"A campout in a nighborhood backyard with friends."
+        },
+                {
+            "placeName":"Big City Zoo",
+            "placeDescription":"A zoo in a big city with crowds of people admiring the animals."
+        },
+                {
+            "placeName":"The Mall",
+            "placeDescription":"A local modern mall with people and shops. "
+        },
+                {
+            "placeName":"Tree House",
+            "placeDescription":"A tree house in a backyard of a house in a neighborhood"
+        },
+                {
+            "placeName":"Outdoor Hike",
+            "placeDescription":"A firest with hiking trails and beautiful scenery."
+        }
+
+    ]
+}
+
+
+
+]
+}
