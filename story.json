@@ -5,12 +5,12 @@
         "description":"Stories about kindness, friendship, and caring for the people around us.",
         "icon":"flask-green",
         "themes":[
-            {"theme":"Friendship","description":""},
-            {"theme":"Kindness","description":""},
-            {"theme":"Respect","description":""},
-            {"theme":"Forgiveness","description":""},
-            {"theme":"Generosity","description":""},
-            {"theme":"Love","description":""}
+            {"theme":"Friendship","description":"Stories exploring the joy of making friends, being loyal companions, sharing experiences, helping each other through difficulties, celebrating differences, and learning that the best adventures are those shared with people who care about you"},
+            {"theme":"Kindness","description":"Tales demonstrating the power of gentle words and caring actions, showing how small acts of compassion create ripples of goodness, teaching empathy for others' feelings, and revealing how being kind makes both the giver and receiver feel wonderful"},
+            {"theme":"Respect","description":"Narratives about honoring others' feelings and boundaries, appreciating different perspectives and cultures, using polite language, treating everyone with dignity regardless of differences, and understanding that respect creates harmonious relationships and communities"},
+            {"theme":"Forgiveness","description":"Heartfelt stories about letting go of hurt feelings, understanding that everyone makes mistakes, finding the courage to say sorry, accepting apologies gracefully, mending broken friendships, and discovering how forgiveness heals hearts and strengthens bonds"},
+            {"theme":"Generosity","description":"Inspiring tales of sharing treasures both big and small, giving without expecting returns, finding joy in making others happy, understanding that the best gifts come from the heart, and learning that generous spirits create abundance for everyone"},
+            {"theme":"Love","description":"Warm stories celebrating love in all forms - family bonds, caring friendships, love for pets, self-love, and universal compassion, showing how love provides strength during challenges and multiplies joy during celebrations"}
         ]
     },
     {
@@ -18,11 +18,11 @@
         "description":"Stories about facing fears, staying strong, and doing the right thing even when it's hard.",
         "icon":"flask-orange",
         "themes":[
-            {"theme":"Bravery","description":""},
-            {"theme":"Courage","description":""},
-            {"theme":"Perseverance","description":""},
-            {"theme":"Responsibility","description":""},
-            {"theme":"Patience","description":""}
+            {"theme":"Bravery","description":"Adventures showcasing characters who face their fears head-on, stand up for what's right even when scared, protect those who need help, take calculated risks for worthy causes, and discover that true bravery means acting despite fear"},
+            {"theme":"Courage","description":"Stories of inner strength emerging during difficult moments, characters finding confidence to try new things, speaking truth when it matters, persisting through setbacks, and learning that courage grows each time we choose to be brave"},
+            {"theme":"Perseverance","description":"Inspiring tales of never giving up, working through frustrations, practicing until skills improve, bouncing back from failures, maintaining hope during long journeys, and celebrating the victory that comes from refusing to quit"},
+            {"theme":"Responsibility","description":"Narratives about keeping promises, taking care of duties, owning up to mistakes, being dependable for others, understanding how actions affect everyone, and growing mature by accepting important roles in family and community"},
+            {"theme":"Patience","description":"Gentle stories teaching the value of waiting calmly, understanding that good things take time, controlling impulses, appreciating slow progress, finding peace in quiet moments, and discovering that patience often leads to better outcomes"}
         ]
     },
     {
@@ -33,7 +33,7 @@
             {"theme":"Honesty","description":""},
             {"theme":"Fairness","description":""},
             {"theme":"Teamwork","description":""},
-            {"theme":"Hope","description":""}
+            {"theme":"Hope","description":"Uplifting stories about maintaining optimism during dark times, believing in better tomorrows, finding silver linings in clouds, planting seeds for future harvests, inspiring others with positive vision, and keeping faith that good things are coming"}
         ]
     },
     {
@@ -41,54 +41,54 @@
         "description":"Stories that spark curiosity, imagination, and new ways of seeing the world.",
         "icon":"flask-purple",
         "themes":[
-            {"theme":"Curiosity","description":""},
-            {"theme":"Creativity","description":""},
-            {"theme":"Self-Discovery","description":""},
-            {"theme":"Gratitude","description":""},
-            {"theme":"Hope","description":""}
+            {"theme":"Curiosity","description":"Adventures driven by wonder and questions, exploring the unknown with enthusiasm, conducting experiments to understand how things work, asking 'why' and 'what if', discovering that every answer leads to new mysteries to solve"},
+            {"theme":"Creativity","description":"Stories celebrating imagination and artistic expression, finding unique solutions to problems, thinking outside conventional boundaries, transforming ordinary materials into extraordinary creations, and proving that creative minds can reshape the world"},
+            {"theme":"Self-Discovery","description":"Journey tales of understanding personal strengths and passions, learning from mistakes to grow wiser, finding one's unique voice and purpose, accepting imperfections while striving to improve, and becoming the best version of oneself"},
+            {"theme":"Gratitude","description":"Heartwarming narratives about appreciating life's blessings both big and small, saying thank you meaningfully, recognizing others' contributions, finding joy in simple moments, and understanding that grateful hearts attract more reasons to be thankful"},
+            {"theme":"Hope","description":"Uplifting stories about maintaining optimism during dark times, believing in better tomorrows, finding silver linings in clouds, planting seeds for future harvests, inspiring others with positive vision, and keeping faith that good things are coming"}
         ]
     }
 ],
 "storyType":[
-    {"type":"Adventures","description":"","imageUrl":"/types/adventure.png","imageJustification":"left"},
-    {"type":"Heros & Villians","description":"","imageUrl":"/types/adventure.png","imageJustification":"right"},
-    {"type":"Sci-Fi & Futuristic","description":"","imageUrl":"/types/adventure.png","imageJustification":"left"},
-    {"type":"Mystery","description":"","imageUrl":"/types/mystery.png","imageJustification":"right"},
-    {"type":"Educational","description":"","imageUrl":"/types/educational.png","imageJustification":"left"},
-    {"type":"Silly & Funny","description":"","imageUrl":"/types/adventure.png","imageJustification":"right"},
-    {"type":"Fantasy","description":"","imageUrl":"/types/adventure.png","imageJustification":"left"},
-    {"type":"Friendship","description":"","imageUrl":"/types/adventure.png","imageJustification":"right"},
-    {"type":"Spooky Stories","description":"","imageUrl":"/types/greenmonster.png","imageJustification":"left"}
+    {"type":"Adventures","description":"Epic journeys filled with exploration, discovery, and excitement where heroes embark on quests through unknown territories, face challenges that test their courage, solve puzzles, overcome obstacles, and return transformed by their experiences and newfound wisdom","imageUrl":"/img/types/adventure.png","imageJustification":"left"},
+    {"type":"Heros & Villians","description":"Classic tales of good versus evil featuring brave protagonists with special abilities or noble hearts confronting menacing antagonists, epic battles between light and darkness, moral choices that define character, and the ultimate triumph of justice and heroism","imageUrl":"/img/types/adventure.png","imageJustification":"right"},
+    {"type":"Sci-Fi & Futuristic","description":"Stories set in advanced technological worlds featuring space exploration, time travel, artificial intelligence, alien encounters, futuristic cities, scientific discoveries, robots as companions or adversaries, and imaginative visions of humanity's potential future among the stars","imageUrl":"/img/types/adventure.png","imageJustification":"left"},
+    {"type":"Mystery","description":"Intriguing puzzles and detective stories where clever protagonists gather clues, interview suspects, decode secret messages, uncover hidden truths, solve perplexing riddles, and piece together evidence to reveal surprising solutions that satisfy curious minds","imageUrl":"/img/types/mystery.png","imageJustification":"right"},
+    {"type":"Educational","description":"Engaging narratives that seamlessly blend learning with entertainment, teaching valuable lessons about science, history, mathematics, nature, cultures, and life skills through relatable characters and situations that make knowledge memorable and fun to discover","imageUrl":"/img/types/educational.png","imageJustification":"left"},
+    {"type":"Silly & Funny","description":"Hilarious tales filled with slapstick humor, ridiculous situations, witty wordplay, absurd characters doing preposterous things, unexpected plot twists that lead to giggles, and lighthearted mischief that celebrates the joy of laughter and pure silliness","imageUrl":"/img/types/adventure.png","imageJustification":"right"},
+    {"type":"Fantasy","description":"Magical realms where anything is possible, featuring wizards casting spells, mythical creatures like dragons and unicorns, enchanted forests, floating castles, powerful artifacts, epic quests to save kingdoms, and the timeless battle between magical forces of good and evil","imageUrl":"/img/types/adventure.png","imageJustification":"left"},
+    {"type":"Friendship","description":"Heartwarming stories celebrating the bonds between companions, featuring characters who support each other through challenges, share adventures and secrets, learn to understand differences, resolve conflicts with empathy, and discover that true friendship makes every journey more meaningful","imageUrl":"/img/types/adventure.png","imageJustification":"right"},
+    {"type":"Spooky Stories","description":"Delightfully frightening tales featuring friendly ghosts, mysterious haunted houses, gentle monsters who aren't what they seem, eerie sounds in the night that turn out to be harmless, and supernatural adventures that provide safe scares while teaching bravery","imageUrl":"/img/greenmonster.png","imageJustification":"left"}
 ],
 "locations":
 [
 {
     "name":"Mission: Space",
-    "imageUrl":"/places/MissionSpace.png",
+    "imageUrl":"/img/MissionSpace.png",
     "places":[
         {
             "placeName":"UAP Spaceship",
-            "placeDescription":"A secretive alien spaceship"
+            "placeDescription":"A mysterious unidentified aerial phenomenon spacecraft with advanced alien technology, featuring sleek metallic surfaces, pulsating energy cores, and extraterrestrial architecture filled with glowing control panels and strange hieroglyphic symbols"
         },
         {
             "placeName":"Alien Hive",
-            "placeDescription":"A hive of aliens"
+            "placeDescription":"A massive organic structure serving as home to an alien colony, with honeycomb-like chambers, bioluminescent walls, interconnected tunnels filled with extraterrestrial beings working in perfect harmony, and a central queen chamber pulsing with alien life"
         },
                 {
             "placeName":"Galactic School",
-            "placeDescription":"A school, in space, where you learn how to become an astro hero!"
+            "placeDescription":"An advanced orbital academy floating among the stars, featuring zero-gravity training rooms, holographic classrooms teaching interstellar navigation, asteroid simulation chambers, and dormitories with panoramic views of distant galaxies where future space heroes master cosmic exploration"
         },
                 {
             "placeName":"Moon Base 44",
-            "placeDescription":"A top-secret base on the dark side of the moon"
+            "placeDescription":"A highly classified lunar installation hidden in perpetual shadow, equipped with advanced radar systems, underground bunkers, secret research laboratories, launch pads for classified missions, and observation domes monitoring deep space activity while shielded from Earth's view"
         },
                 {
             "placeName":"LV-312 Planet",
-            "placeDescription":"A planet 312 light years away with earthlike creatures."
+            "placeDescription":"A distant exoplanet with blue-green continents and familiar-looking wildlife, featuring dense forests with bioluminescent plants, crystal-clear lakes inhabited by fish-like creatures, mountain ranges where bird-analogues soar, and prairies where herds of six-legged mammals graze under twin suns"
         },
                 {
             "placeName":"Space Station",
-            "placeDescription":"United States Space Station for NASA"
+            "placeDescription":"A state-of-the-art orbital research facility with rotating habitat rings for artificial gravity, multiple laboratory modules for experiments, massive solar panel arrays, docking ports for various spacecraft, observation cupolas offering breathtaking Earth views, and the NASA logo prominently displayed on its exterior"
         }
 
     ]
@@ -96,31 +96,31 @@
 
 {
     "name":"The Age of Dinosaurs",
-    "imageUrl":"/places/AgeOfDinosaurs.png",
+    "imageUrl":"/img/AgeOfDinosaurs.png",
     "places":[
         {
             "placeName":"Lava Lands",
-            "placeDescription":"A tropical hawaiian islan inhabited by large dinosaurs"
+            "placeDescription":"A volcanic tropical paradise with steaming lava flows, dense jungle vegetation, bubbling hot springs, black sand beaches where massive sauropods wade through turquoise waters, and pteranodons nesting in palm trees swaying in the warm prehistoric breeze"
         },
         {
             "placeName":"Raptor's Den",
-            "placeDescription":"A carvnivouros den for the lafrgest bird predator"
+            "placeDescription":"A shadowy limestone cave system serving as hunting grounds for velociraptors, littered with bones of prey, featuring narrow tunnels perfect for ambush tactics, nesting chambers with stolen eggs, and claw marks covering the walls where pack members sharpen their deadly talons"
         },
                 {
             "placeName":"Dinosaur Bay",
-            "placeDescription":"A nice beach where cave men go to surf."
+            "placeDescription":"A pristine prehistoric coastline where early humans ride wooden boards on perfect waves, with sandy shores dotted with primitive beach huts, fire pits for evening gatherings, friendly herbivorous dinosaurs grazing nearby, and crystal-clear waters teeming with ancient marine life"
         },
                 {
             "placeName":"Giggle Grove",
-            "placeDescription":"A teen hangout for funny dinosaurs and cave men."
+            "placeDescription":"A lush jungle clearing filled with laughter and prehistoric pranks, featuring natural rock formations perfect for gatherings, fruit trees for snacking, mud pools for silly games, vine swings for adventures, and a mix of playful young dinosaurs and caveman teenagers sharing jokes and stories"
         },
                 {
             "placeName":"Happy Hatchery",
-            "placeDescription":"A farm run by cave men who raise pteradactyls from egg"
+            "placeDescription":"A primitive agricultural settlement where stone-age farmers carefully tend to pteranodon nesting grounds, featuring incubation caves warmed by hot springs, training perches made from giant trees, feeding areas stocked with fish, and wooden enclosures where baby pteranodons learn to fly under watchful human care"
         },
                 {
             "placeName":"Rainbow Falls",
-            "placeDescription":"A beautiful waterfall with rainbows in a land where everyone is happy."
+            "placeDescription":"A magnificent cascading waterfall creating perpetual rainbow mists, surrounded by flowering prehistoric plants, peaceful grazing grounds where herbivorous dinosaurs and humans coexist harmoniously, crystal pools perfect for swimming, and sun-drenched rocks where all creatures bask together in prehistoric paradise"
         }
 
     ]
@@ -128,31 +128,31 @@
 
 {
     "name":"The Days of Miracles",
-    "imageUrl":"/places/DaysOfMiracles.png",
+    "imageUrl":"/img/DaysOfMiracles.png",
     "places":[
         {
             "placeName":"Jerusalem",
-            "placeDescription":"The holy land"
+            "placeDescription":"The ancient sacred city with stone walls and temples, bustling marketplaces filled with merchants and pilgrims, narrow cobblestone streets, olive groves on surrounding hills, and the spiritual heart where faith and miracles intertwine in daily life during biblical times"
         },
         {
             "placeName":"Bethlehem",
-            "placeDescription":"The place where Jesus was born"
+            "placeDescription":"A humble town with simple stone buildings, featuring a sacred stable with wooden mangers, starlit skies guiding travelers, shepherds' fields on rolling hills, small inns along dusty roads, and an atmosphere of divine peace where the miraculous nativity story unfolds"
         },
                 {
             "placeName":"Jerihco",
-            "placeDescription":"A holy place where miracles where performed"
+            "placeDescription":"An ancient oasis city with towering palm trees, mud-brick houses, bustling markets near city gates, the famous walls that once fell, springs providing life-giving water, and dusty roads where prophets walked and divine wonders transformed ordinary moments into miraculous events"
         },
                 {
             "placeName":"Fisherman's Bay",
-            "placeDescription":"A place where men catch fish in the holy land"
+            "placeDescription":"A peaceful shoreline along the Sea of Galilee with wooden fishing boats bobbing on gentle waves, nets drying in the sun, simple docks where fishermen prepare their daily catch, coastal villages with stone houses, and waters where miraculous catches and divine teachings took place"
         },
                 {
             "placeName":"Golden Sand Dunes",
-            "placeDescription":"A desert where they spent 40 days and 40 nights"
+            "placeDescription":"Vast rolling sand dunes stretching endlessly under scorching sun, scattered rocky outcroppings providing minimal shade, sparse desert plants clinging to life, ancient paths worn by countless pilgrims, mysterious caves for solitary prayer, and the profound silence where spiritual trials and divine revelations occur"
         },
                 {
             "placeName":"Carpenters Workshop",
-            "placeDescription":"A place where men build things with their hands and manual tools. "
+            "placeDescription":"A bustling workshop filled with wood shavings and sawdust, hand-carved beams and furniture in various stages of completion, traditional tools like planes and chisels, the aroma of cedar and olive wood, apprentices learning ancient crafts, and skilled hands creating both practical items and works of beauty"
         }
 
     ]
@@ -160,31 +160,35 @@
 
 {
     "name":"Today's Adventures",
-    "imageUrl":"/places/TodaysAdventures.png",
+    "imageUrl":"/img/TodaysAdventures.png",
     "places":[
         {
             "placeName":"School",
-            "placeDescription":"A modern day school"
+            "placeDescription":"A bustling educational campus with colorful classrooms, interactive whiteboards, lockers lining hallways, a cafeteria serving lunch, playground equipment, science labs with microscopes, a library filled with books, and children of all ages learning, playing, and growing together"
         },
         {
             "placeName":"Backyard Campout",
-            "placeDescription":"A campout in a nighborhood backyard with friends."
+            "placeDescription":"A cozy backyard transformed into an adventure zone with colorful tents pitched on grass, sleeping bags arranged in a circle, a safe fire pit for roasting marshmallows, string lights creating magical ambiance, friends telling stories under starry skies, and the comforting presence of home just steps away"
         },
                 {
             "placeName":"Big City Zoo",
-            "placeDescription":"A zoo in a big city with crowds of people admiring the animals."
+            "placeDescription":"A sprawling urban wildlife sanctuary featuring diverse animal habitats, families pushing strollers along winding paths, educational signs at each exhibit, children pressing faces against glass enclosures, peacocks roaming freely, gift shops with stuffed animals, and the excited chatter of visitors discovering creatures from around the world"
         },
                 {
             "placeName":"The Mall",
-            "placeDescription":"A local modern mall with people and shops. "
+            "placeDescription":"A multi-level shopping center with gleaming storefronts, escalators carrying shoppers between floors, a bustling food court with diverse cuisines, children playing in soft play areas, window displays showcasing latest trends, kiosks selling accessories, and the energy of people socializing, shopping, and enjoying modern retail therapy"
         },
                 {
             "placeName":"Tree House",
-            "placeDescription":"A tree house in a backyard of a house in a neighborhood"
+            "placeDescription":"A wooden fortress nestled high in sturdy oak branches, featuring rope ladders for secret access, windows overlooking the neighborhood, handmade no-adults-allowed signs, a pulley system for hauling up snacks, cozy cushions for reading, telescope for spying adventures, and the perfect hideaway where imagination soars above everyday life"
         },
                 {
             "placeName":"Outdoor Hike",
-            "placeDescription":"A firest with hiking trails and beautiful scenery."
+            "placeDescription":"A natural woodland paradise with winding dirt paths through towering trees, wooden trail markers at intersections, babbling brooks crossed by rustic bridges, wildflowers dotting sunny meadows, families with backpacks exploring nature, scenic overlooks revealing valleys below, and the peaceful sounds of birds and rustling leaves"
+        },
+                {
+            "placeName":"Custom:",
+            "placeDescription":"A unique setting limited only by imagination, ready to be filled with specific details, characters, and adventures tailored to the story's needs, whether it's a fantastical realm, a familiar neighborhood spot, or any place where memorable tales can unfold"
         }
 
     ]
@@ -192,5 +196,101 @@
 
 
 
-]
+],
+"assets": {
+    "description": "All image assets used throughout the app that can be remotely updated",
+    
+    "avatars": {
+        "description": "Avatar images used for child profiles and character selection",
+        "images": {
+            "AvatarBoy1": "/avatars/AvatarBoy1.png",
+            "AvatarBoy2": "/avatars/AvatarBoy2.png",
+            "AvatarBoy3": "/avatars/AvatarBoy3.png",
+            "AvatarBoy4": "/avatars/AvatarBoy4.png",
+            "AvatarBoy5": "/avatars/AvatarBoy5.png",
+            "AvatarBoy6": "/avatars/AvatarBoy6.png",
+            "AvatarBoy7": "/avatars/AvatarBoy7.png",
+            "AvatarBoy8": "/avatars/AvatarBoy8.png",
+            "AvatarBoy9": "/avatars/AvatarBoy9.png",
+            "AvatarGirl1": "/avatars/AvatarGirl1.png",
+            "AvatarGirl2": "/avatars/AvatarGirl2.png",
+            "AvatarGirl3": "/avatars/AvatarGirl3.png",
+            "AvatarGirl4": "/avatars/AvatarGirl4.png",
+            "AvatarGirl5": "/avatars/AvatarGirl5.png",
+            "AvatarGirl6": "/avatars/AvatarGirl6.png",
+            "AvatarGirl7": "/avatars/AvatarGirl7.png",
+            "AvatarGirl8": "/avatars/AvatarGirl8.png",
+            "AvatarGirl9": "/avatars/AvatarGirl9.png",
+            "AvatarGirl10": "/avatars/AvatarGirl10.png",
+            "AvatarGirl11": "/avatars/AvatarGirl11.png",
+            "AvatarGirl12": "/avatars/AvatarGirl12.png",
+            "AvatarGirl13": "/avatars/AvatarGirl13.png",
+            "AvatarGirl14": "/avatars/AvatarGirl14.png"
+        }
+    },
+    
+    "backgrounds": {
+        "description": "Background images used across various screens",
+        "images": {
+            "main": "/img/Background.png",
+            "storySettings": "/img/BG.png"
+        }
+    },
+    
+    "uiElements": {
+        "description": "UI elements and icons used throughout the app",
+        "images": {
+            "logo": "/img/logo.png",
+            "logoOnly": "/img/logoonly.png",
+            "monsters": "/img/monsters.png",
+            "welcomeMonster": "/img/welcomemonster.png",
+            "greenMonster": "/img/greenmonster.png",
+            "flask": "/img/flask.png",
+            "add": "/img/add.png",
+            "sparkle": "/img/sparkle.png",
+            "storyBook": "/img/StoryBook.png",
+            "calendar": "/img/calendar.png",
+            "castle": "/img/castle.png",
+            "starshipFreighter": "/img/starship-freighter.png"
+        }
+    },
+    
+    "socialLogin": {
+        "description": "Social login provider icons",
+        "images": {
+            "apple": "/img/apple.png",
+            "google": "/img/google.png"
+        }
+    },
+    
+    "tabBar": {
+        "description": "Bottom tab bar icons",
+        "images": {
+            "home": "/img/homeicon.png",
+            "edit": "/img/pencilicon.png",
+            "characters": "/img/brainicon.png",
+            "library": "/img/booksicon.png"
+        }
+    },
+    
+    "sectionCards": {
+        "description": "Background images for section cards on home screen",
+        "images": {
+            "characters": "/img/characters.png",
+            "library": "/img/library.png"
+        }
+    },
+    
+    "settings": {
+        "description": "Icons used in settings and profile screens",
+        "images": {
+            "settings": "/img/settings.png",
+            "privacy": "/img/privacy.png",
+            "terms": "/img/terms.png",
+            "support": "/img/support.png",
+            "trash": "/img/trash.png",
+            "chevronRight": "/img/chevron-right.png"
+        }
+    }
+}
 }
