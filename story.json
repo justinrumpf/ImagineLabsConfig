@@ -240,7 +240,7 @@
         "description": "UI elements and icons used throughout the app",
         "images": {
             "logo": "img/logo.png",
-            "logoOnly": "img/logoonly.png",
+            "logoOnly": "img/logoonly2.png",
             "monsters": "img/monsters.png",
             "welcomeMonster": "img/welcomemonster.png",
             "greenMonster": "img/greenmonster.png",
