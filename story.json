@@ -50,21 +50,21 @@
     }
 ],
 "storyType":[
-    {"type":"Adventures","description":"","imageUrl":"/src/assets/img/types/adventure.png","imageJustification":"left"},
-    {"type":"Heros & Villians","description":"","imageUrl":"/src/assets/img/types/adventure.png","imageJustification":"right"},
-    {"type":"Sci-Fi & Futuristic","description":"","imageUrl":"/src/assets/img/types/adventure.png","imageJustification":"left"},
-    {"type":"Mystery","description":"","imageUrl":"/src/assets/img/types/mystery.png","imageJustification":"right"},
-    {"type":"Educational","description":"","imageUrl":"/src/assets/img/types/educational.png","imageJustification":"left"},
-    {"type":"Silly & Funny","description":"","imageUrl":"/src/assets/img/types/adventure.png","imageJustification":"right"},
-    {"type":"Fantasy","description":"","imageUrl":"/src/assets/img/types/adventure.png","imageJustification":"left"},
-    {"type":"Friendship","description":"","imageUrl":"/src/assets/img/types/adventure.png","imageJustification":"right"},
-    {"type":"Spooky Stories","description":"","imageUrl":"/src/assets/img/greenmonster.png","imageJustification":"left"}
+    {"type":"Adventures","description":"","imageUrl":"types/adventure.png","imageJustification":"left"},
+    {"type":"Heros & Villians","description":"","imageUrl":"types/adventure.png","imageJustification":"right"},
+    {"type":"Sci-Fi & Futuristic","description":"","imageUrl":"types/adventure.png","imageJustification":"left"},
+    {"type":"Mystery","description":"","imageUrl":"types/mystery.png","imageJustification":"right"},
+    {"type":"Educational","description":"","imageUrl":"types/educational.png","imageJustification":"left"},
+    {"type":"Silly & Funny","description":"","imageUrl":"types/adventure.png","imageJustification":"right"},
+    {"type":"Fantasy","description":"","imageUrl":"types/adventure.png","imageJustification":"left"},
+    {"type":"Friendship","description":"","imageUrl":"types/adventure.png","imageJustification":"right"},
+    {"type":"Spooky Stories","description":"","imageUrl":"img/greenmonster.png","imageJustification":"left"}
 ],
 "locations":
 [
 {
     "name":"Mission: Space",
-    "imageUrl":"/src/assets/img/MissionSpace.png",
+    "imageUrl":"places/MissionSpace.png",
     "places":[
         {
             "placeName":"UAP Spaceship",
@@ -96,7 +96,7 @@
 
 {
     "name":"The Age of Dinosaurs",
-    "imageUrl":"/src/assets/img/AgeOfDinosaurs.png",
+    "imageUrl":"places/AgeOfDinosaurs.png",
     "places":[
         {
             "placeName":"Lava Lands",
@@ -128,7 +128,7 @@
 
 {
     "name":"The Days of Miracles",
-    "imageUrl":"/src/assets/img/DaysOfMiracles.png",
+    "imageUrl":"places/DaysOfMiracles.png",
     "places":[
         {
             "placeName":"Jerusalem",
@@ -160,7 +160,7 @@
 
 {
     "name":"Today's Adventures",
-    "imageUrl":"/src/assets/img/TodaysAdventures.png",
+    "imageUrl":"places/TodaysAdventures.png",
     "places":[
         {
             "placeName":"School",
@@ -203,93 +203,93 @@
     "avatars": {
         "description": "Avatar images used for child profiles and character selection",
         "images": {
-            "AvatarBoy1": "/src/assets/avatars/AvatarBoy1.png",
-            "AvatarBoy2": "/src/assets/avatars/AvatarBoy2.png",
-            "AvatarBoy3": "/src/assets/avatars/AvatarBoy3.png",
-            "AvatarBoy4": "/src/assets/avatars/AvatarBoy4.png",
-            "AvatarBoy5": "/src/assets/avatars/AvatarBoy5.png",
-            "AvatarBoy6": "/src/assets/avatars/AvatarBoy6.png",
-            "AvatarBoy7": "/src/assets/avatars/AvatarBoy7.png",
-            "AvatarBoy8": "/src/assets/avatars/AvatarBoy8.png",
-            "AvatarBoy9": "/src/assets/avatars/AvatarBoy9.png",
-            "AvatarGirl1": "/src/assets/avatars/AvatarGirl1.png",
-            "AvatarGirl2": "/src/assets/avatars/AvatarGirl2.png",
-            "AvatarGirl3": "/src/assets/avatars/AvatarGirl3.png",
-            "AvatarGirl4": "/src/assets/avatars/AvatarGirl4.png",
-            "AvatarGirl5": "/src/assets/avatars/AvatarGirl5.png",
-            "AvatarGirl6": "/src/assets/avatars/AvatarGirl6.png",
-            "AvatarGirl7": "/src/assets/avatars/AvatarGirl7.png",
-            "AvatarGirl8": "/src/assets/avatars/AvatarGirl8.png",
-            "AvatarGirl9": "/src/assets/avatars/AvatarGirl9.png",
-            "AvatarGirl10": "/src/assets/avatars/AvatarGirl10.png",
-            "AvatarGirl11": "/src/assets/avatars/AvatarGirl11.png",
-            "AvatarGirl12": "/src/assets/avatars/AvatarGirl12.png",
-            "AvatarGirl13": "/src/assets/avatars/AvatarGirl13.png",
-            "AvatarGirl14": "/src/assets/avatars/AvatarGirl14.png"
+            "AvatarBoy1": "avatars/AvatarBoy1.png",
+            "AvatarBoy2": "avatars/AvatarBoy2.png",
+            "AvatarBoy3": "avatars/AvatarBoy3.png",
+            "AvatarBoy4": "avatars/AvatarBoy4.png",
+            "AvatarBoy5": "avatars/AvatarBoy5.png",
+            "AvatarBoy6": "avatars/AvatarBoy6.png",
+            "AvatarBoy7": "avatars/AvatarBoy7.png",
+            "AvatarBoy8": "avatars/AvatarBoy8.png",
+            "AvatarBoy9": "avatars/AvatarBoy9.png",
+            "AvatarGirl1": "avatars/AvatarGirl1.png",
+            "AvatarGirl2": "avatars/AvatarGirl2.png",
+            "AvatarGirl3": "avatars/AvatarGirl3.png",
+            "AvatarGirl4": "avatars/AvatarGirl4.png",
+            "AvatarGirl5": "avatars/AvatarGirl5.png",
+            "AvatarGirl6": "avatars/AvatarGirl6.png",
+            "AvatarGirl7": "avatars/AvatarGirl7.png",
+            "AvatarGirl8": "avatars/AvatarGirl8.png",
+            "AvatarGirl9": "avatars/AvatarGirl9.png",
+            "AvatarGirl10": "avatars/AvatarGirl10.png",
+            "AvatarGirl11": "avatars/AvatarGirl11.png",
+            "AvatarGirl12": "avatars/AvatarGirl12.png",
+            "AvatarGirl13": "avatars/AvatarGirl13.png",
+            "AvatarGirl14": "avatars/AvatarGirl14.png"
         }
     },
     
     "backgrounds": {
         "description": "Background images used across various screens",
         "images": {
-            "main": "/src/assets/img/Background.png",
-            "storySettings": "/src/assets/img/BG.png"
+            "main": "img/Background.png",
+            "storySettings": "img/BG.png"
         }
     },
     
     "uiElements": {
         "description": "UI elements and icons used throughout the app",
         "images": {
-            "logo": "/src/assets/img/logo.png",
-            "logoOnly": "/src/assets/img/logoonly.png",
-            "monsters": "/src/assets/img/monsters.png",
-            "welcomeMonster": "/src/assets/img/welcomemonster.png",
-            "greenMonster": "/src/assets/img/greenmonster.png",
-            "flask": "/src/assets/img/flask.png",
-            "add": "/src/assets/img/add.png",
-            "sparkle": "/src/assets/img/sparkle.png",
-            "storyBook": "/src/assets/img/StoryBook.png",
-            "calendar": "/src/assets/img/calendar.png",
-            "castle": "/src/assets/img/castle.png",
-            "starshipFreighter": "/src/assets/img/starship-freighter.png"
+            "logo": "img/logo.png",
+            "logoOnly": "img/logoonly.png",
+            "monsters": "img/monsters.png",
+            "welcomeMonster": "img/welcomemonster.png",
+            "greenMonster": "img/greenmonster.png",
+            "flask": "img/flask.png",
+            "add": "img/add.png",
+            "sparkle": "img/sparkle.png",
+            "storyBook": "img/StoryBook.png",
+            "calendar": "img/calendar.png",
+            "castle": "img/castle.png",
+            "starshipFreighter": "img/starship-freighter.png"
         }
     },
     
     "socialLogin": {
         "description": "Social login provider icons",
         "images": {
-            "apple": "/src/assets/img/apple.png",
-            "google": "/src/assets/img/google.png"
+            "apple": "img/apple.png",
+            "google": "img/google.png"
         }
     },
     
     "tabBar": {
         "description": "Bottom tab bar icons",
         "images": {
-            "home": "/src/assets/img/homeicon.png",
-            "edit": "/src/assets/img/pencilicon.png",
-            "characters": "/src/assets/img/brainicon.png",
-            "library": "/src/assets/img/booksicon.png"
+            "home": "img/homeicon.png",
+            "edit": "img/pencilicon.png",
+            "characters": "img/brainicon.png",
+            "library": "img/booksicon.png"
         }
     },
     
     "sectionCards": {
         "description": "Background images for section cards on home screen",
         "images": {
-            "characters": "/src/assets/img/characters.png",
-            "library": "/src/assets/img/library.png"
+            "characters": "img/characters.png",
+            "library": "img/library.png"
         }
     },
     
     "settings": {
         "description": "Icons used in settings and profile screens",
         "images": {
-            "settings": "/src/assets/img/settings.png",
-            "privacy": "/src/assets/img/privacy.png",
-            "terms": "/src/assets/img/terms.png",
-            "support": "/src/assets/img/support.png",
-            "trash": "/src/assets/img/trash.png",
-            "chevronRight": "/src/assets/img/chevron-right.png"
+            "settings": "img/settings.png",
+            "privacy": "img/privacy.png",
+            "terms": "img/terms.png",
+            "support": "img/support.png",
+            "trash": "img/trash.png",
+            "chevronRight": "img/chevron-right.png"
         }
     }
 }
