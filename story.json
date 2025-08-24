@@ -1,4 +1,325 @@
 {
+"version": "1.0.0",
+"lastUpdated": "2024-08-24",
+"stepTitles": {
+    "step1": "Which story friend are you creating for?",
+    "step2": "Who's in your story?",
+    "step3": "In a world of endless tales, your story begins here...",
+    "step4": "What sort of tale do you want to create?",
+    "step5": "Every story has a lesson — what's yours?",
+    "createCharacter": "Create Character"
+},
+"screenTexts": {
+    "home": {
+        "welcomeMessage": "Welcome back, {name}!",
+        "welcomeSubtext": "Ready to create magical stories?",
+        "createStoryButton": "Create Story",
+        "charactersTitle": "Characters", 
+        "libraryTitle": "Library",
+        "viewAllButton": "View All",
+        "alerts": {
+            "noChildProfile": {
+                "title": "Create a Child Profile",
+                "message": "You need to create a child profile before you can start creating stories. Would you like to add one now?",
+                "cancelButton": "Cancel",
+                "confirmButton": "Add Child"
+            },
+            "error": {
+                "title": "Error",
+                "message": "Unable to check your child profiles. Please try again."
+            }
+        }
+    },
+    "login": {
+        "signInText": "Sign in to get started",
+        "appleSignIn": "Sign In with Apple",
+        "testLogin": "🧪 Test Login",
+        "dividerText": "or",
+        "footerText": "By continuing, you agree to our ",
+        "termsLink": "Terms of Service",
+        "andText": " and ",
+        "privacyLink": "Privacy Policy",
+        "alerts": {
+            "notAvailable": {
+                "title": "Not Available",
+                "message": "Apple Sign In is not available on this device."
+            },
+            "loginFailed": {
+                "title": "Login Failed",
+                "appleMessage": "Apple authentication failed. Please try again.",
+                "testMessage": "There was an error with the test login."
+            }
+        }
+    },
+    "profile": {
+        "screenTitle": "Profile",
+        "menu": {
+            "yourChildren": "Your Children",
+            "characterManagement": "Character Management", 
+            "refreshConfiguration": "Refresh Configuration",
+            "settings": "Settings",
+            "support": "Support",
+            "termsOfService": "Terms of Service",
+            "privacyPolicy": "Privacy Policy"
+        },
+        "stats": {
+            "stories": "Stories",
+            "characters": "Characters"
+        },
+        "logoutButton": "Logout",
+        "alerts": {
+            "editProfile": {
+                "title": "Edit Profile",
+                "message": "Profile editing will be implemented next!"
+            },
+            "notifications": {
+                "title": "Notifications",
+                "message": "Notification settings will be implemented next!"
+            },
+            "myStories": {
+                "title": "My Stories",
+                "message": "Story management will be implemented next!"
+            },
+            "refreshConfig": {
+                "updating": {
+                    "title": "Updating",
+                    "message": "Fetching latest configuration..."
+                },
+                "success": {
+                    "title": "Success",
+                    "message": "Configuration updated successfully!",
+                    "assetChangesHeader": "\n\nAsset changes:",
+                    "moreChanges": "\n... and {count} more changes",
+                    "checkConsole": "\n\nCheck console for full details.",
+                    "noChanges": "\n\nNo asset changes detected."
+                },
+                "failed": {
+                    "title": "Update Failed",
+                    "message": "Unable to fetch updates. Please check your internet connection and try again."
+                }
+            },
+            "logout": {
+                "title": "Logout",
+                "message": "Are you sure you want to logout?",
+                "cancelButton": "Cancel",
+                "confirmButton": "Logout"
+            }
+        }
+    },
+    "library": {
+        "title": "Library",
+        "createNewButton": "Create new Story",
+        "emptyState": {
+            "title": "No stories yet",
+            "subtitle": "Create your first story to get started"
+        },
+        "loadingText": "Loading stories...",
+        "storyCard": {
+            "readTime": "{time} min",
+            "wordCount": "{count} words"
+        },
+        "alerts": {
+            "deleteStory": {
+                "title": "Delete Story",
+                "message": "Are you sure you want to delete \"{title}\"? This action cannot be undone.",
+                "cancelButton": "Cancel",
+                "deleteButton": "Delete"
+            },
+            "deleteError": {
+                "title": "Error",
+                "message": "Failed to delete story. Please try again."
+            },
+            "loadError": {
+                "title": "Error",
+                "message": "Failed to load stories"
+            }
+        }
+    },
+    "characters": {
+        "title": "Characters",
+        "subtitle": "Your Story Characters",
+        "addButton": "Add Character",
+        "emptyState": {
+            "title": "No characters yet",
+            "subtitle": "Add your first character to get started!"
+        },
+        "loadingText": "Loading characters...",
+        "characterCard": {
+            "ageFormat": "{age} y/o {gender}"
+        },
+        "alerts": {
+            "deleteCharacter": {
+                "title": "Delete Character",
+                "message": "Are you sure you want to delete {name}?",
+                "cancelButton": "Cancel",
+                "deleteButton": "Delete"
+            },
+            "deleteError": {
+                "title": "Error",
+                "message": "Failed to delete character. Please try again."
+            }
+        }
+    },
+    "onboarding": {
+        "welcomeTitle": "Welcome to Imagine Labs!",
+        "welcomeMessage": "Let's create personalized stories for your children. Would you like to add a child profile to get started?",
+        "addChildButton": "Add a Child",
+        "skipButton": "Skip for Now",
+        "helperText": "You can always add children later in your profile settings."
+    },
+    "myChildren": {
+        "title": "My Children",
+        "addButton": "+ Add Child",
+        "editButton": "Edit",
+        "deleteButton": "Delete",
+        "characterBadge": "Character",
+        "loadingText": "Loading children...",
+        "ageFormat": {
+            "single": "1 year old",
+            "plural": "{age} years old"
+        },
+        "emptyState": {
+            "title": "No Children Added",
+            "message": "Add your first child to start creating personalized stories and characters.",
+            "addButton": "Add Your First Child"
+        },
+        "alerts": {
+            "loadError": {
+                "title": "Error",
+                "message": "Failed to load children. Please try again."
+            },
+            "deleteChild": {
+                "title": "Delete Child",
+                "message": "Are you sure you want to delete {name}'s profile? This cannot be undone.",
+                "cancelButton": "Cancel",
+                "deleteButton": "Delete"
+            },
+            "deleteSuccess": {
+                "title": "Success",
+                "message": "{name}'s profile has been deleted."
+            },
+            "deleteError": {
+                "title": "Error",
+                "message": "Failed to delete child profile. Please try again."
+            }
+        }
+    },
+    "addChild": {
+        "namePlaceholder": "Child's Name (or Nickname)",
+        "agePlaceholder": "Age",
+        "genderPlaceholder": "Gender",
+        "genderDropdownTitle": "Select Gender",
+        "includeAsCharacterLabel": "Include as Character",
+        "cancelButton": "Cancel",
+        "saveButton": "Save",
+        "avatarTitle": "Select an Avatar",
+        "saveAvatarButton": "Save Avatar",
+        "savingText": "Saving...",
+        "genderOptions": {
+            "boy": "Boy",
+            "girl": "Girl",
+            "nonBinary": "Non-Binary",
+            "preferNotToSay": "Prefer not to say"
+        },
+        "alerts": {
+            "missingName": {
+                "title": "Missing Information",
+                "message": "Please enter a name for your child."
+            },
+            "invalidAge": {
+                "title": "Invalid Age",
+                "message": "Please enter a valid age between 1 and 18."
+            },
+            "missingGender": {
+                "title": "Missing Information",
+                "message": "Please select a gender."
+            },
+            "saveError": {
+                "title": "Error",
+                "message": "Failed to save child information. Please try again."
+            }
+        }
+    },
+    "settings": {
+        "title": "Settings",
+        "loadingText": "Loading settings...",
+        "resetButton": "Reset to Default Settings",
+        "sections": {
+            "notifications": "Notifications",
+            "appBehavior": "App Behavior",
+            "appearance": "Appearance"
+        },
+        "settings": {
+            "pushNotifications": {
+                "title": "Push Notifications",
+                "subtitle": "Receive app notifications"
+            },
+            "autoSave": {
+                "title": "Auto Save",
+                "subtitle": "Automatically save stories and progress"
+            },
+            "theme": {
+                "title": "Theme",
+                "subtitle": "App color scheme"
+            }
+        },
+        "themeOptions": {
+            "light": "Light",
+            "dark": "Dark",
+            "auto": "Auto"
+        },
+        "alerts": {
+            "saveError": {
+                "title": "Error",
+                "message": "Failed to save settings. Please try again."
+            },
+            "resetSettings": {
+                "title": "Reset Settings",
+                "message": "Are you sure you want to reset all settings to their default values?",
+                "cancelButton": "Cancel",
+                "resetButton": "Reset"
+            }
+        }
+    },
+    "support": {
+        "title": "Support",
+        "pageTitle": "Need Help?",
+        "description": "We're here to help you get the most out of Imagine Labs. If you have any questions, concerns, or need assistance, please don't hesitate to reach out to our support team.",
+        "contactEmail": "support@e115industries.com",
+        "emailSubject": "Imagine Labs Support Request",
+        "futureNote": "More support options and resources will be available in future updates.",
+        "sections": {
+            "contact": {
+                "title": "Contact Support",
+                "description": "For technical support, account issues, or general questions, please email us:"
+            },
+            "responseTime": {
+                "title": "Response Time",
+                "description": "We typically respond to support requests within 24-48 hours during business days. For urgent issues, please include \"URGENT\" in your email subject line."
+            },
+            "tips": {
+                "title": "When Contacting Support",
+                "description": "To help us assist you quickly, please include:",
+                "item1": "• A detailed description of the issue",
+                "item2": "• Steps you've already tried",
+                "item3": "• Your device type and operating system",
+                "item4": "• Screenshots if applicable"
+            }
+        },
+        "alerts": {
+            "emailNotAvailable": {
+                "title": "Email Client Not Available",
+                "message": "Please send your support request to:\n{email}",
+                "okButton": "OK"
+            },
+            "contactSupport": {
+                "title": "Contact Support",
+                "message": "Please send your support request to:\n{email}",
+                "okButton": "OK"
+            }
+        }
+    }
+},
 "storyThemes":[
     {
         "category":"How we Treat Others",
