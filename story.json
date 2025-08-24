@@ -5,7 +5,7 @@
         "description":"Stories about kindness, friendship, and caring for the people around us.",
         "icon":"flask-green",
         "themes":[
-            {"theme":"Friendship","description":""},
+            {"theme":"Friendshipx","description":""},
             {"theme":"Kindness","description":""},
             {"theme":"Respect","description":""},
             {"theme":"Forgiveness","description":""},
@@ -18,7 +18,7 @@
         "description":"Stories about facing fears, staying strong, and doing the right thing even when it's hard.",
         "icon":"flask-orange",
         "themes":[
-            {"theme":"Bravery","description":""},
+            {"theme":"Braveryx","description":""},
             {"theme":"Courage","description":""},
             {"theme":"Perseverance","description":""},
             {"theme":"Responsibility","description":""},
@@ -30,7 +30,7 @@
         "description":"Stories about honesty, fairness, and working together as a team.",
         "icon":"flask-blue",
         "themes":[
-            {"theme":"Honesty","description":""},
+            {"theme":"Honestyx","description":""},
             {"theme":"Fairness","description":""},
             {"theme":"Teamwork","description":""},
             {"theme":"Hope","description":""}
@@ -41,7 +41,7 @@
         "description":"Stories that spark curiosity, imagination, and new ways of seeing the world.",
         "icon":"flask-purple",
         "themes":[
-            {"theme":"Curiosity","description":""},
+            {"theme":"Curiosityx","description":""},
             {"theme":"Creativity","description":""},
             {"theme":"Self-Discovery","description":""},
             {"theme":"Gratitude","description":""},
@@ -50,7 +50,7 @@
     }
 ],
 "storyType":[
-    {"type":"Adventures","description":"","imageUrl":"types/adventure.png","imageJustification":"left"},
+    {"type":"Adventuresx","description":"","imageUrl":"types/adventure.png","imageJustification":"left"},
     {"type":"Heros & Villians","description":"","imageUrl":"types/adventure.png","imageJustification":"right"},
     {"type":"Sci-Fi & Futuristic","description":"","imageUrl":"types/adventure.png","imageJustification":"left"},
     {"type":"Mystery","description":"","imageUrl":"types/mystery.png","imageJustification":"right"},
@@ -63,7 +63,7 @@
 "locations":
 [
 {
-    "name":"Mission: Space",
+    "name":"Mission: Spacex",
     "imageUrl":"places/MissionSpace.png",
     "places":[
         {
@@ -232,8 +232,8 @@
     "backgrounds": {
         "description": "Background images used across various screens",
         "images": {
-            "main": "img/Background.png",
-            "storySettings": "img/BG.png"
+            "main": "img/BG2.png",
+            "storySettings": "img/BG2.png"
         }
     },
     
