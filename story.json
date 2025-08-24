@@ -107,7 +107,7 @@
         }
     },
     "library": {
-        "title": "Library",
+        "title": "Your Stories",
         "createNewButton": "Create new Story",
         "emptyState": {
             "title": "No stories yet",
