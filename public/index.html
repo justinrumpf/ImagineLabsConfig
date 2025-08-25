@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagine Labs Story Configuration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Imagine Labs Story Configuration</h1>
+            <p>Manage story.json configuration for the Imagine Labs app</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-button active" data-tab="basic">Basic Info</button>
+            <button class="tab-button" data-tab="titles">Step Titles</button>
+            <button class="tab-button" data-tab="themes">Themes</button>
+            <button class="tab-button" data-tab="types">Story Types</button>
+            <button class="tab-button" data-tab="locations">Locations</button>
+            <button class="tab-button" data-tab="prompts">AI Prompts</button>
+            <button class="tab-button" data-tab="assets">Assets</button>
+            <button class="tab-button" data-tab="raw">Raw JSON</button>
+        </nav>
+
+        <main id="content">
+            <!-- Basic Info Tab -->
+            <div class="tab-content active" id="basic-tab">
+                <h2>Basic Information</h2>
+                <div class="form-group">
+                    <label for="version">Version</label>
+                    <input type="text" id="version" class="form-control">
+                    <small>Version number of the configuration</small>
+                </div>
+                <div class="form-group">
+                    <label for="lastUpdated">Last Updated</label>
+                    <input type="text" id="lastUpdated" class="form-control">
+                    <small>Date of last update (YYYY-MM-DD)</small>
+                </div>
+            </div>
+
+            <!-- Step Titles Tab -->
+            <div class="tab-content" id="titles-tab">
+                <h2>Step Titles</h2>
+                <p class="description">Customize the titles shown for each step of story creation</p>
+                <div id="stepTitles"></div>
+            </div>
+
+            <!-- Themes Tab -->
+            <div class="tab-content" id="themes-tab">
+                <h2>Story Themes</h2>
+                <p class="description">Manage theme categories and individual themes with age ranges and word counts</p>
+                <div id="themes"></div>
+                <button class="btn btn-primary" onclick="addThemeCategory()">Add Theme Category</button>
+            </div>
+
+            <!-- Story Types Tab -->
+            <div class="tab-content" id="types-tab">
+                <h2>Story Types</h2>
+                <p class="description">Define different types of stories available</p>
+                <div id="storyTypes"></div>
+                <button class="btn btn-primary" onclick="addStoryType()">Add Story Type</button>
+            </div>
+
+            <!-- Locations Tab -->
+            <div class="tab-content" id="locations-tab">
+                <h2>Locations</h2>
+                <p class="description">Manage story locations and their places</p>
+                <div id="locations"></div>
+                <button class="btn btn-primary" onclick="addLocation()">Add Location</button>
+            </div>
+
+            <!-- AI Prompts Tab -->
+            <div class="tab-content" id="prompts-tab">
+                <h2>AI Prompts</h2>
+                <p class="description">Configure prompts for story and image generation</p>
+                <div id="aiPrompts"></div>
+            </div>
+
+            <!-- Assets Tab -->
+            <div class="tab-content" id="assets-tab">
+                <h2>Assets</h2>
+                <p class="description">Manage image assets for the app</p>
+                <div id="assets"></div>
+            </div>
+
+            <!-- Raw JSON Tab -->
+            <div class="tab-content" id="raw-tab">
+                <h2>Raw JSON Editor</h2>
+                <p class="description">Edit the configuration directly as JSON</p>
+                <textarea id="rawJson" class="json-editor"></textarea>
+                <button class="btn btn-secondary" onclick="formatJson()">Format JSON</button>
+                <button class="btn btn-primary" onclick="applyRawJson()">Apply Changes</button>
+            </div>
+        </main>
+
+        <footer>
+            <div class="actions">
+                <button class="btn btn-success" onclick="saveConfig()">Save Locally</button>
+                <button class="btn btn-danger" onclick="commitToGitHub()">Commit to GitHub</button>
+            </div>
+            <div id="status" class="status"></div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
