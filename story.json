@@ -594,13 +594,13 @@
     {
       "type": "Adventures",
       "description": "Epic quests with brave heroes exploring new lands, overcoming obstacles, discovering treasures, meeting interesting characters, and returning home with wisdom and exciting tales to share",
-      "imageUrl": "/uploads/file-1756128862276-679482824.png",
+      "imageUrl": "types/mystery.png",
       "imageJustification": "left"
     },
     {
       "type": "Heros & Villians",
       "description": "Action-packed tales of good versus evil, superheroes with special powers protecting the innocent, clever heroes outsmarting villains, redemption stories, and the triumph of justice and kindness",
-      "imageUrl": "/uploads/file-1756128846295-964524545.png",
+      "imageUrl": "types/mystery.png",
       "imageJustification": "right"
     },
     {
