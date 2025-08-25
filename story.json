@@ -785,8 +785,8 @@
       }
     },
     "imageGeneration": {
-      "coverPrompt": "Title: \"{title}\"\nStory excerpt: \"{storyExcerpt}...\"\nCharacters: {characters}\nSetting: {locationName} - {locationDescription}\nTime Period: {timePeriod}\nTheme: {theme}\nStory Type: {storyType}\n\nIMPORTANT: You are a very famous children's graphic design illustrator and artist. Using the image requirements below, create a children's book cover with \"{title}\" prominently displayed as decorative text integrated into the image. The title must be clearly readable and part of the artistic design. Do not show any other text. The setting should reflect: {locationDescription}. \n\nStyle: Disney/Pixar style using vibrant colors",
-      "imageRequirements": "Image Requirements:\n- Generate a single high-quality image in vibrant colors a Disney Pixar style. \n- Style: Professional children's book illustration\n- Only text should be the title.\n- Make it appealing to young readers (ages 4-10)",
+      "coverPrompt": "Title: \"{title}\"\nStory excerpt: \"{storyExcerpt}...\"\nCharacters: {characters}\nSetting: {locationName} - {locationDescription}\nTime Period: {timePeriod}\nTheme: {theme}\nStory Type: {storyType}\n\nIMPORTANT: DO NOT SHOW ANY TEXT BESIDES THE TITLE.\n\nIMPORTANT: You are a very famous children's graphic design illustrator and artist. Using the image requirements below, create a children's book cover with \"{title}\" prominently displayed as decorative text integrated into the image. The title must be clearly readable and part of the artistic design. Do not show any other text. The setting should reflect: {locationDescription}. \n\nStyle: Disney/Pixar style using vibrant colors",
+      "imageRequirements": "Image Requirements:\n- DO NOT SHOW ANY TEXT BESIDES THE TITLE.\n- Generate a single high-quality image in vibrant colors a Disney Pixar style. \n- Style: Professional children's book illustration\n- Only text should be the title.\n- Make it appealing to young readers (ages 4-10)",
       "generationConfig": {
         "temperature": 0.8,
         "maxOutputTokens": 8192,
