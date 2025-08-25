@@ -326,12 +326,12 @@
         "description":"Stories about kindness, friendship, and caring for the people around us.",
         "icon":"flask-green",
         "themes":[
-            {"theme":"Friendshipx","description":"Stories about forming bonds, being loyal to friends, sharing and playing together, resolving conflicts peacefully, and discovering that true friends accept us for who we are"},
-            {"theme":"Kindness","description":"Tales of helping others without expecting rewards, showing compassion to those in need, using gentle words, including everyone in activities, and spreading joy through small acts of caring"},
-            {"theme":"Respect","description":"Adventures teaching the importance of treating others with dignity, listening to different viewpoints, honoring elders and authority figures, taking care of property, and valuing diversity"},
-            {"theme":"Forgiveness","description":"Heartwarming stories about letting go of anger, giving second chances, understanding that everyone makes mistakes, apologizing sincerely, and rebuilding trust after conflicts"},
-            {"theme":"Generosity","description":"Inspiring tales of sharing toys and treats, donating to those less fortunate, giving time to help others, discovering that giving brings more joy than receiving, and being generous with compliments"},
-            {"theme":"Love","description":"Warm stories celebrating family bonds, unconditional acceptance, expressing affection through actions and words, loving pets and nature, and understanding that love multiplies when shared"}
+            {"theme":"Friendshipx","description":"Stories about forming bonds, being loyal to friends, sharing and playing together, resolving conflicts peacefully, and discovering that true friends accept us for who we are","ageRange":{"min":3,"max":12},"wordCount":{"min":400,"max":1200}},
+            {"theme":"Kindness","description":"Tales of helping others without expecting rewards, showing compassion to those in need, using gentle words, including everyone in activities, and spreading joy through small acts of caring","ageRange":{"min":3,"max":10},"wordCount":{"min":400,"max":1000}},
+            {"theme":"Respect","description":"Adventures teaching the importance of treating others with dignity, listening to different viewpoints, honoring elders and authority figures, taking care of property, and valuing diversity","ageRange":{"min":5,"max":14},"wordCount":{"min":600,"max":1200}},
+            {"theme":"Forgiveness","description":"Heartwarming stories about letting go of anger, giving second chances, understanding that everyone makes mistakes, apologizing sincerely, and rebuilding trust after conflicts","ageRange":{"min":6,"max":14},"wordCount":{"min":700,"max":1400}},
+            {"theme":"Generosity","description":"Inspiring tales of sharing toys and treats, donating to those less fortunate, giving time to help others, discovering that giving brings more joy than receiving, and being generous with compliments","ageRange":{"min":4,"max":12},"wordCount":{"min":500,"max":1200}},
+            {"theme":"Love","description":"Warm stories celebrating family bonds, unconditional acceptance, expressing affection through actions and words, loving pets and nature, and understanding that love multiplies when shared","ageRange":{"min":3,"max":10},"wordCount":{"min":400,"max":1000}}
         ]
     },
     {
@@ -339,11 +339,11 @@
         "description":"Stories about facing fears, staying strong, and doing the right thing even when it's hard.",
         "icon":"flask-orange",
         "themes":[
-            {"theme":"Braveryx","description":"Exciting adventures about facing fears, standing up for what's right even when scared, trying new things, protecting others from harm, and discovering inner strength in challenging moments"},
-            {"theme":"Courage","description":"Bold tales of speaking truth when it's difficult, defending friends from bullies, admitting mistakes, asking for help when needed, and finding bravery in everyday situations"},
-            {"theme":"Perseverance","description":"Motivating stories about never giving up, practicing until mastery is achieved, overcoming obstacles with determination, learning from failures, and celebrating hard-earned victories"},
-            {"theme":"Responsibility","description":"Important lessons about keeping promises, completing chores and homework, taking care of pets, owning up to mistakes, being dependable, and understanding how our actions affect others"},
-            {"theme":"Patience","description":"Gentle stories teaching the value of waiting turns, staying calm in frustrating situations, understanding that good things take time, helping younger children, and finding peace in quiet moments"}
+            {"theme":"Braveryx","description":"Exciting adventures about facing fears, standing up for what's right even when scared, trying new things, protecting others from harm, and discovering inner strength in challenging moments","ageRange":{"min":5,"max":14},"wordCount":{"min":600,"max":1400}},
+            {"theme":"Courage","description":"Bold tales of speaking truth when it's difficult, defending friends from bullies, admitting mistakes, asking for help when needed, and finding bravery in everyday situations","ageRange":{"min":6,"max":14},"wordCount":{"min":700,"max":1400}},
+            {"theme":"Perseverance","description":"Motivating stories about never giving up, practicing until mastery is achieved, overcoming obstacles with determination, learning from failures, and celebrating hard-earned victories","ageRange":{"min":6,"max":16},"wordCount":{"min":700,"max":1500}},
+            {"theme":"Responsibility","description":"Important lessons about keeping promises, completing chores and homework, taking care of pets, owning up to mistakes, being dependable, and understanding how our actions affect others","ageRange":{"min":5,"max":14},"wordCount":{"min":600,"max":1300}},
+            {"theme":"Patience","description":"Gentle stories teaching the value of waiting turns, staying calm in frustrating situations, understanding that good things take time, helping younger children, and finding peace in quiet moments","ageRange":{"min":4,"max":12},"wordCount":{"min":500,"max":1100}}
         ]
     },
     {
@@ -351,10 +351,10 @@
         "description":"Stories about honesty, fairness, and working together as a team.",
         "icon":"flask-blue",
         "themes":[
-            {"theme":"Honestyx","description":""},
-            {"theme":"Fairness","description":""},
-            {"theme":"Teamwork","description":""},
-            {"theme":"Hope","description":"Uplifting stories about staying positive during tough times, believing in better days ahead, finding silver linings, encouraging others, and understanding that challenges are temporary"}
+            {"theme":"Honestyx","description":"Meaningful stories about telling the truth even when it's hard, being trustworthy with secrets, admitting when wrong, keeping promises, and understanding that honesty builds strong relationships","ageRange":{"min":5,"max":14},"wordCount":{"min":600,"max":1300}},
+            {"theme":"Fairness","description":"Important tales about sharing equally, taking turns, following rules in games, standing up against injustice, treating everyone equally, and ensuring everyone gets a chance to participate","ageRange":{"min":4,"max":12},"wordCount":{"min":500,"max":1200}},
+            {"theme":"Teamwork","description":"Collaborative adventures showing how working together achieves more, valuing each person's strengths, communicating effectively, compromising for the group's benefit, and celebrating team victories","ageRange":{"min":5,"max":14},"wordCount":{"min":600,"max":1300}},
+            {"theme":"Hope","description":"Uplifting stories about staying positive during tough times, believing in better days ahead, finding silver linings, encouraging others, and understanding that challenges are temporary","ageRange":{"min":6,"max":16},"wordCount":{"min":700,"max":1400}}
         ]
     },
     {
@@ -362,11 +362,11 @@
         "description":"Stories that spark curiosity, imagination, and new ways of seeing the world.",
         "icon":"flask-purple",
         "themes":[
-            {"theme":"Curiosityx","description":"Exploratory tales encouraging questions about the world, investigating how things work, discovering new interests, learning through experimentation, and celebrating the joy of lifelong learning"},
-            {"theme":"Creativity","description":"Imaginative stories about expressing ideas through art and play, thinking outside the box, solving problems creatively, inventing new games, and believing that there's no wrong way to create"},
-            {"theme":"Self-Discovery","description":"Personal journeys of understanding one's unique talents, embracing individuality, learning from experiences, building confidence, growing from challenges, and becoming the best version of oneself"},
-            {"theme":"Gratitude","description":"Heartwarming stories about appreciating family and friends, being thankful for small joys, recognizing helpers in our lives, saying thank you, and finding happiness in what we have"},
-            {"theme":"Hope","description":"Uplifting stories about staying positive during tough times, believing in better days ahead, finding silver linings, encouraging others, and understanding that challenges are temporary"}
+            {"theme":"Curiosityx","description":"Exploratory tales encouraging questions about the world, investigating how things work, discovering new interests, learning through experimentation, and celebrating the joy of lifelong learning","ageRange":{"min":4,"max":14},"wordCount":{"min":500,"max":1300}},
+            {"theme":"Creativity","description":"Imaginative stories about expressing ideas through art and play, thinking outside the box, solving problems creatively, inventing new games, and believing that there's no wrong way to create","ageRange":{"min":3,"max":12},"wordCount":{"min":400,"max":1100}},
+            {"theme":"Self-Discovery","description":"Personal journeys of understanding one's unique talents, embracing individuality, learning from experiences, building confidence, growing from challenges, and becoming the best version of oneself","ageRange":{"min":7,"max":16},"wordCount":{"min":800,"max":1500}},
+            {"theme":"Gratitude","description":"Heartwarming stories about appreciating family and friends, being thankful for small joys, recognizing helpers in our lives, saying thank you, and finding happiness in what we have","ageRange":{"min":4,"max":12},"wordCount":{"min":500,"max":1100}},
+            {"theme":"Hope","description":"Uplifting stories about staying positive during tough times, believing in better days ahead, finding silver linings, encouraging others, and understanding that challenges are temporary","ageRange":{"min":6,"max":16},"wordCount":{"min":700,"max":1400}}
         ]
     }
 ],
@@ -521,7 +521,7 @@
 "aiPrompts": {
     "description": "AI prompts for story and image generation",
     "storyGeneration": {
-        "basePrompt": "Create a children's story with the following elements:\n\nTitle: Create an engaging, age-appropriate title\n\nCharacters: {characters}\nTime Period: {timePeriod}\nLocation: {locationName} - {locationDescription}\nStory Type: {storyType} - {storyTypeDescription}\nTheme/Lesson: {theme} - {themeDescription}\n{childInfo}\n\nRequirements:\n- Write a complete children's story (800-1200 words)\n- Make it age-appropriate and engaging\n- Include all the specified characters\n- Set the story in the specified time period and location, using the location description to create vivid settings\n- Follow the story type structure: {storyTypeDescription}\n- Incorporate the theme deeply throughout the story: {themeDescription}\n- Use simple, clear language suitable for children\n- Include dialogue and descriptive elements\n- Create a satisfying beginning, middle, and end\n- Ensure the story is positive and educational\n\nFormat your response as:\nTitle: [Story Title]\n\n[Complete story text with paragraphs]\n\nSummary: [2-3 sentence summary of the story]",
+        "basePrompt": "Create a children's story with the following elements:\n\nTitle: Create an engaging, age-appropriate title\n\nCharacters: {characters}\nTime Period: {timePeriod}\nLocation: {locationName} - {locationDescription}\nStory Type: {storyType} - {storyTypeDescription}\nTheme/Lesson: {theme} - {themeDescription}\n{childInfo}\n\nRequirements:\n- Write a complete children's story ({wordCount} words)\n- Make it age-appropriate and engaging for a {ageRange} year old child\n- Include all the specified characters\n- Set the story in the specified time period and location, using the location description to create vivid settings\n- Follow the story type structure: {storyTypeDescription}\n- Incorporate the theme deeply throughout the story: {themeDescription}\n- Use simple, clear language suitable for children\n- Include dialogue and descriptive elements\n- Create a satisfying beginning, middle, and end\n- Ensure the story is positive and educational\n\nFormat your response as:\nTitle: [Story Title]\n\n[Complete story text with paragraphs]",
         "childInfoTemplate": "Child's Name: {childName}\nAge Range: {ageRange}",
         "generationConfig": {
             "temperature": 0.8,
