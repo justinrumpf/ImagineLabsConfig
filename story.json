@@ -1,640 +1,890 @@
 {
-"version": "1.0.0",
-"lastUpdated": "2024-08-24",
-"stepTitles": {
-    "step1": "Which story friend are you creating for?",
+  "version": "1.0.0",
+  "lastUpdated": "2024-08-24",
+  "stepTitles": {
+    "step1": "Which story friend are you creating for test 1?",
     "step2": "Who's in your story?",
     "step3": "In a world of endless tales, your story begins here...",
     "step4": "What sort of tale do you want to create?",
     "step5": "Every story has a lesson — what's yours?",
     "createCharacter": "Create Character"
-},
-"screenTexts": {
+  },
+  "screenTexts": {
     "home": {
-        "welcomeMessage": "Welcome back, {name}!",
-        "welcomeSubtext": "Ready to create magical stories?",
-        "createStoryButton": "Create Story",
-        "charactersTitle": "Characters", 
-        "libraryTitle": "Your Stories",
-        "viewAllButton": "View All",
-        "alerts": {
-            "noChildProfile": {
-                "title": "Create a Child Profile",
-                "message": "You need to create a child profile before you can start creating stories. Would you like to add one now?",
-                "cancelButton": "Cancel",
-                "confirmButton": "Add Child"
-            },
-            "error": {
-                "title": "Error",
-                "message": "Unable to check your child profiles. Please try again."
-            }
+      "welcomeMessage": "Welcome back, {name}!",
+      "welcomeSubtext": "Ready to create magical stories?",
+      "createStoryButton": "Create Story",
+      "charactersTitle": "Characters",
+      "libraryTitle": "Your Stories",
+      "viewAllButton": "View All",
+      "alerts": {
+        "noChildProfile": {
+          "title": "Create a Child Profile",
+          "message": "You need to create a child profile before you can start creating stories. Would you like to add one now?",
+          "cancelButton": "Cancel",
+          "confirmButton": "Add Child"
+        },
+        "error": {
+          "title": "Error",
+          "message": "Unable to check your child profiles. Please try again."
         }
+      }
     },
     "login": {
-        "signInText": "Sign in to get started",
-        "appleSignIn": "Sign In with Apple",
-        "testLogin": "🧪 Test Login",
-        "dividerText": "or",
-        "footerText": "By continuing, you agree to our ",
-        "termsLink": "Terms of Service",
-        "andText": " and ",
-        "privacyLink": "Privacy Policy",
-        "alerts": {
-            "notAvailable": {
-                "title": "Not Available",
-                "message": "Apple Sign In is not available on this device."
-            },
-            "loginFailed": {
-                "title": "Login Failed",
-                "appleMessage": "Apple authentication failed. Please try again.",
-                "testMessage": "There was an error with the test login."
-            }
+      "signInText": "Sign in to get started",
+      "appleSignIn": "Sign In with Apple",
+      "testLogin": "🧪 Test Login",
+      "dividerText": "or",
+      "footerText": "By continuing, you agree to our ",
+      "termsLink": "Terms of Service",
+      "andText": " and ",
+      "privacyLink": "Privacy Policy",
+      "alerts": {
+        "notAvailable": {
+          "title": "Not Available",
+          "message": "Apple Sign In is not available on this device."
+        },
+        "loginFailed": {
+          "title": "Login Failed",
+          "appleMessage": "Apple authentication failed. Please try again.",
+          "testMessage": "There was an error with the test login."
         }
+      }
     },
     "profile": {
-        "screenTitle": "Profile",
-        "menu": {
-            "yourChildren": "Your Children",
-            "characterManagement": "Character Management", 
-            "refreshConfiguration": "Refresh Configuration",
-            "settings": "Settings",
-            "support": "Support",
-            "termsOfService": "Terms of Service",
-            "privacyPolicy": "Privacy Policy"
+      "screenTitle": "Profile",
+      "menu": {
+        "yourChildren": "Your Children",
+        "characterManagement": "Character Management",
+        "refreshConfiguration": "Refresh Configuration",
+        "settings": "Settings",
+        "support": "Support",
+        "termsOfService": "Terms of Service",
+        "privacyPolicy": "Privacy Policy"
+      },
+      "stats": {
+        "stories": "Stories",
+        "characters": "Characters"
+      },
+      "logoutButton": "Logout",
+      "alerts": {
+        "editProfile": {
+          "title": "Edit Profile",
+          "message": "Profile editing will be implemented next!"
         },
-        "stats": {
-            "stories": "Stories",
-            "characters": "Characters"
+        "notifications": {
+          "title": "Notifications",
+          "message": "Notification settings will be implemented next!"
         },
-        "logoutButton": "Logout",
-        "alerts": {
-            "editProfile": {
-                "title": "Edit Profile",
-                "message": "Profile editing will be implemented next!"
-            },
-            "notifications": {
-                "title": "Notifications",
-                "message": "Notification settings will be implemented next!"
-            },
-            "myStories": {
-                "title": "My Stories",
-                "message": "Story management will be implemented next!"
-            },
-            "refreshConfig": {
-                "updating": {
-                    "title": "Updating",
-                    "message": "Fetching latest configuration..."
-                },
-                "success": {
-                    "title": "Success",
-                    "message": "Configuration updated successfully!",
-                    "assetChangesHeader": "\n\nAsset changes:",
-                    "moreChanges": "\n... and {count} more changes",
-                    "checkConsole": "\n\nCheck console for full details.",
-                    "noChanges": "\n\nNo asset changes detected."
-                },
-                "failed": {
-                    "title": "Update Failed",
-                    "message": "Unable to fetch updates. Please check your internet connection and try again."
-                }
-            },
-            "logout": {
-                "title": "Logout",
-                "message": "Are you sure you want to logout?",
-                "cancelButton": "Cancel",
-                "confirmButton": "Logout"
-            }
+        "myStories": {
+          "title": "My Stories",
+          "message": "Story management will be implemented next!"
+        },
+        "refreshConfig": {
+          "updating": {
+            "title": "Updating",
+            "message": "Fetching latest configuration..."
+          },
+          "success": {
+            "title": "Success",
+            "message": "Configuration updated successfully!",
+            "assetChangesHeader": "\n\nAsset changes:",
+            "moreChanges": "\n... and {count} more changes",
+            "checkConsole": "\n\nCheck console for full details.",
+            "noChanges": "\n\nNo asset changes detected."
+          },
+          "failed": {
+            "title": "Update Failed",
+            "message": "Unable to fetch updates. Please check your internet connection and try again."
+          }
+        },
+        "logout": {
+          "title": "Logout",
+          "message": "Are you sure you want to logout?",
+          "cancelButton": "Cancel",
+          "confirmButton": "Logout"
         }
+      }
     },
     "library": {
-        "title": "Your Stories",
-        "createNewButton": "Create new Story",
-        "emptyState": {
-            "title": "No stories yet",
-            "subtitle": "Create your first story to get started"
+      "title": "Your Stories",
+      "createNewButton": "Create new Story",
+      "emptyState": {
+        "title": "No stories yet",
+        "subtitle": "Create your first story to get started"
+      },
+      "loadingText": "Loading stories...",
+      "storyCard": {
+        "readTime": "{time} min",
+        "wordCount": "{count} words"
+      },
+      "alerts": {
+        "deleteStory": {
+          "title": "Delete Story",
+          "message": "Are you sure you want to delete \"{title}\"? This action cannot be undone.",
+          "cancelButton": "Cancel",
+          "deleteButton": "Delete"
         },
-        "loadingText": "Loading stories...",
-        "storyCard": {
-            "readTime": "{time} min",
-            "wordCount": "{count} words"
+        "deleteError": {
+          "title": "Error",
+          "message": "Failed to delete story. Please try again."
         },
-        "alerts": {
-            "deleteStory": {
-                "title": "Delete Story",
-                "message": "Are you sure you want to delete \"{title}\"? This action cannot be undone.",
-                "cancelButton": "Cancel",
-                "deleteButton": "Delete"
-            },
-            "deleteError": {
-                "title": "Error",
-                "message": "Failed to delete story. Please try again."
-            },
-            "loadError": {
-                "title": "Error",
-                "message": "Failed to load stories"
-            }
+        "loadError": {
+          "title": "Error",
+          "message": "Failed to load stories"
         }
+      }
     },
     "characters": {
-        "title": "Characters",
-        "subtitle": "Your Story Characters",
-        "addButton": "Add Character",
-        "emptyState": {
-            "title": "No characters yet",
-            "subtitle": "Add your first character to get started!"
+      "title": "Characters",
+      "subtitle": "Your Story Characters",
+      "addButton": "Add Character",
+      "emptyState": {
+        "title": "No characters yet",
+        "subtitle": "Add your first character to get started!"
+      },
+      "loadingText": "Loading characters...",
+      "characterCard": {
+        "ageFormat": "{age} y/o {gender}"
+      },
+      "alerts": {
+        "deleteCharacter": {
+          "title": "Delete Character",
+          "message": "Are you sure you want to delete {name}?",
+          "cancelButton": "Cancel",
+          "deleteButton": "Delete"
         },
-        "loadingText": "Loading characters...",
-        "characterCard": {
-            "ageFormat": "{age} y/o {gender}"
-        },
-        "alerts": {
-            "deleteCharacter": {
-                "title": "Delete Character",
-                "message": "Are you sure you want to delete {name}?",
-                "cancelButton": "Cancel",
-                "deleteButton": "Delete"
-            },
-            "deleteError": {
-                "title": "Error",
-                "message": "Failed to delete character. Please try again."
-            }
+        "deleteError": {
+          "title": "Error",
+          "message": "Failed to delete character. Please try again."
         }
+      }
     },
     "onboarding": {
-        "welcomeTitle": "Welcome to Imagine Labs!",
-        "welcomeMessage": "Let's create personalized stories for your children. Would you like to add a child profile to get started?",
-        "addChildButton": "Add a Child",
-        "skipButton": "Skip for Now",
-        "helperText": "You can always add children later in your profile settings."
+      "welcomeTitle": "Welcome to Imagine Labs!",
+      "welcomeMessage": "Let's create personalized stories for your children. Would you like to add a child profile to get started?",
+      "addChildButton": "Add a Child",
+      "skipButton": "Skip for Now",
+      "helperText": "You can always add children later in your profile settings."
     },
     "myChildren": {
-        "title": "My Children",
-        "addButton": "+ Add Child",
-        "editButton": "Edit",
-        "deleteButton": "Delete",
-        "characterBadge": "Character",
-        "loadingText": "Loading children...",
-        "ageFormat": {
-            "single": "1 year old",
-            "plural": "{age} years old"
+      "title": "My Children",
+      "addButton": "+ Add Child",
+      "editButton": "Edit",
+      "deleteButton": "Delete",
+      "characterBadge": "Character",
+      "loadingText": "Loading children...",
+      "ageFormat": {
+        "single": "1 year old",
+        "plural": "{age} years old"
+      },
+      "emptyState": {
+        "title": "No Children Added",
+        "message": "Add your first child to start creating personalized stories and characters.",
+        "addButton": "Add Your First Child"
+      },
+      "alerts": {
+        "loadError": {
+          "title": "Error",
+          "message": "Failed to load children. Please try again."
         },
-        "emptyState": {
-            "title": "No Children Added",
-            "message": "Add your first child to start creating personalized stories and characters.",
-            "addButton": "Add Your First Child"
+        "deleteChild": {
+          "title": "Delete Child",
+          "message": "Are you sure you want to delete {name}'s profile? This cannot be undone.",
+          "cancelButton": "Cancel",
+          "deleteButton": "Delete"
         },
-        "alerts": {
-            "loadError": {
-                "title": "Error",
-                "message": "Failed to load children. Please try again."
-            },
-            "deleteChild": {
-                "title": "Delete Child",
-                "message": "Are you sure you want to delete {name}'s profile? This cannot be undone.",
-                "cancelButton": "Cancel",
-                "deleteButton": "Delete"
-            },
-            "deleteSuccess": {
-                "title": "Success",
-                "message": "{name}'s profile has been deleted."
-            },
-            "deleteError": {
-                "title": "Error",
-                "message": "Failed to delete child profile. Please try again."
-            }
+        "deleteSuccess": {
+          "title": "Success",
+          "message": "{name}'s profile has been deleted."
+        },
+        "deleteError": {
+          "title": "Error",
+          "message": "Failed to delete child profile. Please try again."
         }
+      }
     },
     "addChild": {
-        "namePlaceholder": "Child's Name (or Nickname)",
-        "agePlaceholder": "Age",
-        "genderPlaceholder": "Gender",
-        "genderDropdownTitle": "Select Gender",
-        "includeAsCharacterLabel": "Include as Character",
-        "cancelButton": "Cancel",
-        "saveButton": "Save",
-        "avatarTitle": "Select an Avatar",
-        "saveAvatarButton": "Save Avatar",
-        "savingText": "Saving...",
-        "genderOptions": {
-            "boy": "Boy",
-            "girl": "Girl",
-            "nonBinary": "Non-Binary",
-            "preferNotToSay": "Prefer not to say"
+      "namePlaceholder": "Child's Name (or Nickname)",
+      "agePlaceholder": "Age",
+      "genderPlaceholder": "Gender",
+      "genderDropdownTitle": "Select Gender",
+      "includeAsCharacterLabel": "Include as Character",
+      "cancelButton": "Cancel",
+      "saveButton": "Save",
+      "avatarTitle": "Select an Avatar",
+      "saveAvatarButton": "Save Avatar",
+      "savingText": "Saving...",
+      "genderOptions": {
+        "boy": "Boy",
+        "girl": "Girl",
+        "nonBinary": "Non-Binary",
+        "preferNotToSay": "Prefer not to say"
+      },
+      "alerts": {
+        "missingName": {
+          "title": "Missing Information",
+          "message": "Please enter a name for your child."
         },
-        "alerts": {
-            "missingName": {
-                "title": "Missing Information",
-                "message": "Please enter a name for your child."
-            },
-            "invalidAge": {
-                "title": "Invalid Age",
-                "message": "Please enter a valid age between 1 and 18."
-            },
-            "missingGender": {
-                "title": "Missing Information",
-                "message": "Please select a gender."
-            },
-            "saveError": {
-                "title": "Error",
-                "message": "Failed to save child information. Please try again."
-            }
+        "invalidAge": {
+          "title": "Invalid Age",
+          "message": "Please enter a valid age between 1 and 18."
+        },
+        "missingGender": {
+          "title": "Missing Information",
+          "message": "Please select a gender."
+        },
+        "saveError": {
+          "title": "Error",
+          "message": "Failed to save child information. Please try again."
         }
+      }
     },
     "settings": {
-        "title": "Settings",
-        "loadingText": "Loading settings...",
-        "resetButton": "Reset to Default Settings",
-        "sections": {
-            "notifications": "Notifications",
-            "appBehavior": "App Behavior",
-            "appearance": "Appearance"
+      "title": "Settings",
+      "loadingText": "Loading settings...",
+      "resetButton": "Reset to Default Settings",
+      "sections": {
+        "notifications": "Notifications",
+        "appBehavior": "App Behavior",
+        "appearance": "Appearance"
+      },
+      "settings": {
+        "pushNotifications": {
+          "title": "Push Notifications",
+          "subtitle": "Receive app notifications"
         },
-        "settings": {
-            "pushNotifications": {
-                "title": "Push Notifications",
-                "subtitle": "Receive app notifications"
-            },
-            "autoSave": {
-                "title": "Auto Save",
-                "subtitle": "Automatically save stories and progress"
-            },
-            "theme": {
-                "title": "Theme",
-                "subtitle": "App color scheme"
-            }
+        "autoSave": {
+          "title": "Auto Save",
+          "subtitle": "Automatically save stories and progress"
         },
-        "themeOptions": {
-            "light": "Light",
-            "dark": "Dark",
-            "auto": "Auto"
-        },
-        "alerts": {
-            "saveError": {
-                "title": "Error",
-                "message": "Failed to save settings. Please try again."
-            },
-            "resetSettings": {
-                "title": "Reset Settings",
-                "message": "Are you sure you want to reset all settings to their default values?",
-                "cancelButton": "Cancel",
-                "resetButton": "Reset"
-            }
+        "theme": {
+          "title": "Theme",
+          "subtitle": "App color scheme"
         }
+      },
+      "themeOptions": {
+        "light": "Light",
+        "dark": "Dark",
+        "auto": "Auto"
+      },
+      "alerts": {
+        "saveError": {
+          "title": "Error",
+          "message": "Failed to save settings. Please try again."
+        },
+        "resetSettings": {
+          "title": "Reset Settings",
+          "message": "Are you sure you want to reset all settings to their default values?",
+          "cancelButton": "Cancel",
+          "resetButton": "Reset"
+        }
+      }
     },
     "support": {
-        "title": "Support",
-        "pageTitle": "Need Help?",
-        "description": "We're here to help you get the most out of Imagine Labs. If you have any questions, concerns, or need assistance, please don't hesitate to reach out to our support team.",
-        "contactEmail": "support@e115industries.com",
-        "emailSubject": "Imagine Labs Support Request",
-        "futureNote": "More support options and resources will be available in future updates.",
-        "sections": {
-            "contact": {
-                "title": "Contact Support",
-                "description": "For technical support, account issues, or general questions, please email us:"
-            },
-            "responseTime": {
-                "title": "Response Time",
-                "description": "We typically respond to support requests within 24-48 hours during business days. For urgent issues, please include \"URGENT\" in your email subject line."
-            },
-            "tips": {
-                "title": "When Contacting Support",
-                "description": "To help us assist you quickly, please include:",
-                "item1": "• A detailed description of the issue",
-                "item2": "• Steps you've already tried",
-                "item3": "• Your device type and operating system",
-                "item4": "• Screenshots if applicable"
-            }
+      "title": "Support",
+      "pageTitle": "Need Help?",
+      "description": "We're here to help you get the most out of Imagine Labs. If you have any questions, concerns, or need assistance, please don't hesitate to reach out to our support team.",
+      "contactEmail": "support@e115industries.com",
+      "emailSubject": "Imagine Labs Support Request",
+      "futureNote": "More support options and resources will be available in future updates.",
+      "sections": {
+        "contact": {
+          "title": "Contact Support",
+          "description": "For technical support, account issues, or general questions, please email us:"
         },
-        "alerts": {
-            "emailNotAvailable": {
-                "title": "Email Client Not Available",
-                "message": "Please send your support request to:\n{email}",
-                "okButton": "OK"
-            },
-            "contactSupport": {
-                "title": "Contact Support",
-                "message": "Please send your support request to:\n{email}",
-                "okButton": "OK"
-            }
+        "responseTime": {
+          "title": "Response Time",
+          "description": "We typically respond to support requests within 24-48 hours during business days. For urgent issues, please include \"URGENT\" in your email subject line."
+        },
+        "tips": {
+          "title": "When Contacting Support",
+          "description": "To help us assist you quickly, please include:",
+          "item1": "• A detailed description of the issue",
+          "item2": "• Steps you've already tried",
+          "item3": "• Your device type and operating system",
+          "item4": "• Screenshots if applicable"
         }
+      },
+      "alerts": {
+        "emailNotAvailable": {
+          "title": "Email Client Not Available",
+          "message": "Please send your support request to:\n{email}",
+          "okButton": "OK"
+        },
+        "contactSupport": {
+          "title": "Contact Support",
+          "message": "Please send your support request to:\n{email}",
+          "okButton": "OK"
+        }
+      }
     }
-},
-"storyThemes":[
+  },
+  "storyThemes": [
     {
-        "category":"How we Treat Others",
-        "description":"Stories about kindness, friendship, and caring for the people around us.",
-        "icon":"flask-green",
-        "themes":[
-            {"theme":"Friendshipx","description":"Stories about forming bonds, being loyal to friends, sharing and playing together, resolving conflicts peacefully, and discovering that true friends accept us for who we are","ageRange":{"min":3,"max":12},"wordCount":{"min":400,"max":1200}},
-            {"theme":"Kindness","description":"Tales of helping others without expecting rewards, showing compassion to those in need, using gentle words, including everyone in activities, and spreading joy through small acts of caring","ageRange":{"min":3,"max":10},"wordCount":{"min":400,"max":1000}},
-            {"theme":"Respect","description":"Adventures teaching the importance of treating others with dignity, listening to different viewpoints, honoring elders and authority figures, taking care of property, and valuing diversity","ageRange":{"min":5,"max":14},"wordCount":{"min":600,"max":1200}},
-            {"theme":"Forgiveness","description":"Heartwarming stories about letting go of anger, giving second chances, understanding that everyone makes mistakes, apologizing sincerely, and rebuilding trust after conflicts","ageRange":{"min":6,"max":14},"wordCount":{"min":700,"max":1400}},
-            {"theme":"Generosity","description":"Inspiring tales of sharing toys and treats, donating to those less fortunate, giving time to help others, discovering that giving brings more joy than receiving, and being generous with compliments","ageRange":{"min":4,"max":12},"wordCount":{"min":500,"max":1200}},
-            {"theme":"Love","description":"Warm stories celebrating family bonds, unconditional acceptance, expressing affection through actions and words, loving pets and nature, and understanding that love multiplies when shared","ageRange":{"min":3,"max":10},"wordCount":{"min":400,"max":1000}}
-        ]
+      "category": "How we Treat Others",
+      "description": "Stories about kindness, friendship, and caring for the people around us.",
+      "icon": "flask-green",
+      "themes": [
+        {
+          "theme": "Friendshipx",
+          "description": "Stories about forming bonds, being loyal to friends, sharing and playing together, resolving conflicts peacefully, and discovering that true friends accept us for who we are",
+          "ageRange": {
+            "min": 3,
+            "max": 12
+          },
+          "wordCount": {
+            "min": 400,
+            "max": 1200
+          }
+        },
+        {
+          "theme": "Kindness",
+          "description": "Tales of helping others without expecting rewards, showing compassion to those in need, using gentle words, including everyone in activities, and spreading joy through small acts of caring",
+          "ageRange": {
+            "min": 3,
+            "max": 10
+          },
+          "wordCount": {
+            "min": 400,
+            "max": 1000
+          }
+        },
+        {
+          "theme": "Respect",
+          "description": "Adventures teaching the importance of treating others with dignity, listening to different viewpoints, honoring elders and authority figures, taking care of property, and valuing diversity",
+          "ageRange": {
+            "min": 5,
+            "max": 14
+          },
+          "wordCount": {
+            "min": 600,
+            "max": 1200
+          }
+        },
+        {
+          "theme": "Forgiveness",
+          "description": "Heartwarming stories about letting go of anger, giving second chances, understanding that everyone makes mistakes, apologizing sincerely, and rebuilding trust after conflicts",
+          "ageRange": {
+            "min": 6,
+            "max": 14
+          },
+          "wordCount": {
+            "min": 700,
+            "max": 1400
+          }
+        },
+        {
+          "theme": "Generosity",
+          "description": "Inspiring tales of sharing toys and treats, donating to those less fortunate, giving time to help others, discovering that giving brings more joy than receiving, and being generous with compliments",
+          "ageRange": {
+            "min": 4,
+            "max": 12
+          },
+          "wordCount": {
+            "min": 500,
+            "max": 1200
+          }
+        },
+        {
+          "theme": "Love",
+          "description": "Warm stories celebrating family bonds, unconditional acceptance, expressing affection through actions and words, loving pets and nature, and understanding that love multiplies when shared",
+          "ageRange": {
+            "min": 3,
+            "max": 10
+          },
+          "wordCount": {
+            "min": 400,
+            "max": 1000
+          }
+        }
+      ]
     },
     {
-        "category":"Being Brave & Strong",
-        "description":"Stories about facing fears, staying strong, and doing the right thing even when it's hard.",
-        "icon":"flask-orange",
-        "themes":[
-            {"theme":"Braveryx","description":"Exciting adventures about facing fears, standing up for what's right even when scared, trying new things, protecting others from harm, and discovering inner strength in challenging moments","ageRange":{"min":5,"max":14},"wordCount":{"min":600,"max":1400}},
-            {"theme":"Courage","description":"Bold tales of speaking truth when it's difficult, defending friends from bullies, admitting mistakes, asking for help when needed, and finding bravery in everyday situations","ageRange":{"min":6,"max":14},"wordCount":{"min":700,"max":1400}},
-            {"theme":"Perseverance","description":"Motivating stories about never giving up, practicing until mastery is achieved, overcoming obstacles with determination, learning from failures, and celebrating hard-earned victories","ageRange":{"min":6,"max":16},"wordCount":{"min":700,"max":1500}},
-            {"theme":"Responsibility","description":"Important lessons about keeping promises, completing chores and homework, taking care of pets, owning up to mistakes, being dependable, and understanding how our actions affect others","ageRange":{"min":5,"max":14},"wordCount":{"min":600,"max":1300}},
-            {"theme":"Patience","description":"Gentle stories teaching the value of waiting turns, staying calm in frustrating situations, understanding that good things take time, helping younger children, and finding peace in quiet moments","ageRange":{"min":4,"max":12},"wordCount":{"min":500,"max":1100}}
-        ]
+      "category": "Being Brave & Strong",
+      "description": "Stories about facing fears, staying strong, and doing the right thing even when it's hard.",
+      "icon": "flask-orange",
+      "themes": [
+        {
+          "theme": "Braveryx",
+          "description": "Exciting adventures about facing fears, standing up for what's right even when scared, trying new things, protecting others from harm, and discovering inner strength in challenging moments",
+          "ageRange": {
+            "min": 5,
+            "max": 14
+          },
+          "wordCount": {
+            "min": 600,
+            "max": 1400
+          }
+        },
+        {
+          "theme": "Courage",
+          "description": "Bold tales of speaking truth when it's difficult, defending friends from bullies, admitting mistakes, asking for help when needed, and finding bravery in everyday situations",
+          "ageRange": {
+            "min": 6,
+            "max": 14
+          },
+          "wordCount": {
+            "min": 700,
+            "max": 1400
+          }
+        },
+        {
+          "theme": "Perseverance",
+          "description": "Motivating stories about never giving up, practicing until mastery is achieved, overcoming obstacles with determination, learning from failures, and celebrating hard-earned victories",
+          "ageRange": {
+            "min": 6,
+            "max": 16
+          },
+          "wordCount": {
+            "min": 700,
+            "max": 1500
+          }
+        },
+        {
+          "theme": "Responsibility",
+          "description": "Important lessons about keeping promises, completing chores and homework, taking care of pets, owning up to mistakes, being dependable, and understanding how our actions affect others",
+          "ageRange": {
+            "min": 5,
+            "max": 14
+          },
+          "wordCount": {
+            "min": 600,
+            "max": 1300
+          }
+        },
+        {
+          "theme": "Patience",
+          "description": "Gentle stories teaching the value of waiting turns, staying calm in frustrating situations, understanding that good things take time, helping younger children, and finding peace in quiet moments",
+          "ageRange": {
+            "min": 4,
+            "max": 12
+          },
+          "wordCount": {
+            "min": 500,
+            "max": 1100
+          }
+        }
+      ]
     },
     {
-        "category":"Teamwork & Honesty",
-        "description":"Stories about honesty, fairness, and working together as a team.",
-        "icon":"flask-blue",
-        "themes":[
-            {"theme":"Honestyx","description":"Meaningful stories about telling the truth even when it's hard, being trustworthy with secrets, admitting when wrong, keeping promises, and understanding that honesty builds strong relationships","ageRange":{"min":5,"max":14},"wordCount":{"min":600,"max":1300}},
-            {"theme":"Fairness","description":"Important tales about sharing equally, taking turns, following rules in games, standing up against injustice, treating everyone equally, and ensuring everyone gets a chance to participate","ageRange":{"min":4,"max":12},"wordCount":{"min":500,"max":1200}},
-            {"theme":"Teamwork","description":"Collaborative adventures showing how working together achieves more, valuing each person's strengths, communicating effectively, compromising for the group's benefit, and celebrating team victories","ageRange":{"min":5,"max":14},"wordCount":{"min":600,"max":1300}},
-            {"theme":"Hope","description":"Uplifting stories about staying positive during tough times, believing in better days ahead, finding silver linings, encouraging others, and understanding that challenges are temporary","ageRange":{"min":6,"max":16},"wordCount":{"min":700,"max":1400}}
-        ]
+      "category": "Teamwork & Honesty",
+      "description": "Stories about honesty, fairness, and working together as a team.",
+      "icon": "flask-blue",
+      "themes": [
+        {
+          "theme": "Honestyx",
+          "description": "Meaningful stories about telling the truth even when it's hard, being trustworthy with secrets, admitting when wrong, keeping promises, and understanding that honesty builds strong relationships",
+          "ageRange": {
+            "min": 5,
+            "max": 14
+          },
+          "wordCount": {
+            "min": 600,
+            "max": 1300
+          }
+        },
+        {
+          "theme": "Fairness",
+          "description": "Important tales about sharing equally, taking turns, following rules in games, standing up against injustice, treating everyone equally, and ensuring everyone gets a chance to participate",
+          "ageRange": {
+            "min": 4,
+            "max": 12
+          },
+          "wordCount": {
+            "min": 500,
+            "max": 1200
+          }
+        },
+        {
+          "theme": "Teamwork",
+          "description": "Collaborative adventures showing how working together achieves more, valuing each person's strengths, communicating effectively, compromising for the group's benefit, and celebrating team victories",
+          "ageRange": {
+            "min": 5,
+            "max": 14
+          },
+          "wordCount": {
+            "min": 600,
+            "max": 1300
+          }
+        },
+        {
+          "theme": "Hope",
+          "description": "Uplifting stories about staying positive during tough times, believing in better days ahead, finding silver linings, encouraging others, and understanding that challenges are temporary",
+          "ageRange": {
+            "min": 6,
+            "max": 16
+          },
+          "wordCount": {
+            "min": 700,
+            "max": 1400
+          }
+        }
+      ]
     },
     {
-        "category":"Discovery & Learning",
-        "description":"Stories that spark curiosity, imagination, and new ways of seeing the world.",
-        "icon":"flask-purple",
-        "themes":[
-            {"theme":"Curiosityx","description":"Exploratory tales encouraging questions about the world, investigating how things work, discovering new interests, learning through experimentation, and celebrating the joy of lifelong learning","ageRange":{"min":4,"max":14},"wordCount":{"min":500,"max":1300}},
-            {"theme":"Creativity","description":"Imaginative stories about expressing ideas through art and play, thinking outside the box, solving problems creatively, inventing new games, and believing that there's no wrong way to create","ageRange":{"min":3,"max":12},"wordCount":{"min":400,"max":1100}},
-            {"theme":"Self-Discovery","description":"Personal journeys of understanding one's unique talents, embracing individuality, learning from experiences, building confidence, growing from challenges, and becoming the best version of oneself","ageRange":{"min":7,"max":16},"wordCount":{"min":800,"max":1500}},
-            {"theme":"Gratitude","description":"Heartwarming stories about appreciating family and friends, being thankful for small joys, recognizing helpers in our lives, saying thank you, and finding happiness in what we have","ageRange":{"min":4,"max":12},"wordCount":{"min":500,"max":1100}},
-            {"theme":"Hope","description":"Uplifting stories about staying positive during tough times, believing in better days ahead, finding silver linings, encouraging others, and understanding that challenges are temporary","ageRange":{"min":6,"max":16},"wordCount":{"min":700,"max":1400}}
-        ]
+      "category": "Discovery & Learning",
+      "description": "Stories that spark curiosity, imagination, and new ways of seeing the world.",
+      "icon": "flask-purple",
+      "themes": [
+        {
+          "theme": "Curiosityx",
+          "description": "Exploratory tales encouraging questions about the world, investigating how things work, discovering new interests, learning through experimentation, and celebrating the joy of lifelong learning",
+          "ageRange": {
+            "min": 4,
+            "max": 14
+          },
+          "wordCount": {
+            "min": 500,
+            "max": 1300
+          }
+        },
+        {
+          "theme": "Creativity",
+          "description": "Imaginative stories about expressing ideas through art and play, thinking outside the box, solving problems creatively, inventing new games, and believing that there's no wrong way to create",
+          "ageRange": {
+            "min": 3,
+            "max": 12
+          },
+          "wordCount": {
+            "min": 400,
+            "max": 1100
+          }
+        },
+        {
+          "theme": "Self-Discovery",
+          "description": "Personal journeys of understanding one's unique talents, embracing individuality, learning from experiences, building confidence, growing from challenges, and becoming the best version of oneself",
+          "ageRange": {
+            "min": 7,
+            "max": 16
+          },
+          "wordCount": {
+            "min": 800,
+            "max": 1500
+          }
+        },
+        {
+          "theme": "Gratitude",
+          "description": "Heartwarming stories about appreciating family and friends, being thankful for small joys, recognizing helpers in our lives, saying thank you, and finding happiness in what we have",
+          "ageRange": {
+            "min": 4,
+            "max": 12
+          },
+          "wordCount": {
+            "min": 500,
+            "max": 1100
+          }
+        },
+        {
+          "theme": "Hope",
+          "description": "Uplifting stories about staying positive during tough times, believing in better days ahead, finding silver linings, encouraging others, and understanding that challenges are temporary",
+          "ageRange": {
+            "min": 6,
+            "max": 16
+          },
+          "wordCount": {
+            "min": 700,
+            "max": 1400
+          }
+        }
+      ]
     }
-],
-"storyType":[
-    {"type":"Adventuresx","description":"Epic quests with brave heroes exploring new lands, overcoming obstacles, discovering treasures, meeting interesting characters, and returning home with wisdom and exciting tales to share","imageUrl":"types/adventure.png","imageJustification":"left"},
-    {"type":"Heros & Villians","description":"Action-packed tales of good versus evil, superheroes with special powers protecting the innocent, clever heroes outsmarting villains, redemption stories, and the triumph of justice and kindness","imageUrl":"types/adventure.png","imageJustification":"right"},
-    {"type":"Sci-Fi & Futuristic","description":"Futuristic adventures with space travel, friendly robots, amazing inventions, alien encounters, time machines, exploring other planets, and imagining how technology might change our world","imageUrl":"types/adventure.png","imageJustification":"left"},
-    {"type":"Mystery","description":"Intriguing puzzles and detective stories where young sleuths follow clues, solve riddles, uncover secrets, find missing items, catch harmless tricksters, and use logic to crack the case","imageUrl":"types/mystery.png","imageJustification":"right"},
-    {"type":"Educational","description":"Fun learning adventures exploring science concepts, historical events, different cultures, nature facts, mathematical thinking, language play, and discovering how the world works through engaging narratives","imageUrl":"types/educational.png","imageJustification":"left"},
-    {"type":"Silly & Funny","description":"Hilarious tales filled with silly situations, funny misunderstandings, playful pranks, talking animals with comedic personalities, laugh-out-loud moments, and joy-filled adventures that tickle the funny bone","imageUrl":"types/adventure.png","imageJustification":"right"},
-    {"type":"Fantasy","description":"Magical worlds with wizards, dragons, enchanted forests, fairy godmothers, mystical creatures, spell-casting adventures, kingdoms in the clouds, and where imagination knows no bounds","imageUrl":"types/adventure.png","imageJustification":"left"},
-    {"type":"Friendship","description":"Heartwarming stories celebrating best friends, making new friends, friends helping each other through challenges, learning to understand differences, sharing adventures, and the special bond of true friendship","imageUrl":"types/adventure.png","imageJustification":"right"},
-    {"type":"Spooky Stories","description":"Mildly spooky tales with friendly ghosts, silly monsters, haunted houses with surprises, mysterious sounds that turn out funny, costume mix-ups, and Halloween adventures that are more fun than frightening","imageUrl":"img/greenmonster.png","imageJustification":"left"}
-],
-"locations":
-[
-{
-    "name":"Mission: Spacex",
-    "imageUrl":"places/MissionSpace.png",
-    "places":[
+  ],
+  "storyType": [
+    {
+      "type": "Adventuresx",
+      "description": "Epic quests with brave heroes exploring new lands, overcoming obstacles, discovering treasures, meeting interesting characters, and returning home with wisdom and exciting tales to share",
+      "imageUrl": "types/adventure.png",
+      "imageJustification": "left"
+    },
+    {
+      "type": "Heros & Villians",
+      "description": "Action-packed tales of good versus evil, superheroes with special powers protecting the innocent, clever heroes outsmarting villains, redemption stories, and the triumph of justice and kindness",
+      "imageUrl": "types/adventure.png",
+      "imageJustification": "right"
+    },
+    {
+      "type": "Sci-Fi & Futuristic",
+      "description": "Futuristic adventures with space travel, friendly robots, amazing inventions, alien encounters, time machines, exploring other planets, and imagining how technology might change our world",
+      "imageUrl": "types/adventure.png",
+      "imageJustification": "left"
+    },
+    {
+      "type": "Mystery",
+      "description": "Intriguing puzzles and detective stories where young sleuths follow clues, solve riddles, uncover secrets, find missing items, catch harmless tricksters, and use logic to crack the case",
+      "imageUrl": "types/mystery.png",
+      "imageJustification": "right"
+    },
+    {
+      "type": "Educational",
+      "description": "Fun learning adventures exploring science concepts, historical events, different cultures, nature facts, mathematical thinking, language play, and discovering how the world works through engaging narratives",
+      "imageUrl": "types/educational.png",
+      "imageJustification": "left"
+    },
+    {
+      "type": "Silly & Funny",
+      "description": "Hilarious tales filled with silly situations, funny misunderstandings, playful pranks, talking animals with comedic personalities, laugh-out-loud moments, and joy-filled adventures that tickle the funny bone",
+      "imageUrl": "types/adventure.png",
+      "imageJustification": "right"
+    },
+    {
+      "type": "Fantasy",
+      "description": "Magical worlds with wizards, dragons, enchanted forests, fairy godmothers, mystical creatures, spell-casting adventures, kingdoms in the clouds, and where imagination knows no bounds",
+      "imageUrl": "types/adventure.png",
+      "imageJustification": "left"
+    },
+    {
+      "type": "Friendship",
+      "description": "Heartwarming stories celebrating best friends, making new friends, friends helping each other through challenges, learning to understand differences, sharing adventures, and the special bond of true friendship",
+      "imageUrl": "types/adventure.png",
+      "imageJustification": "right"
+    },
+    {
+      "type": "Spooky Stories",
+      "description": "Mildly spooky tales with friendly ghosts, silly monsters, haunted houses with surprises, mysterious sounds that turn out funny, costume mix-ups, and Halloween adventures that are more fun than frightening",
+      "imageUrl": "img/greenmonster.png",
+      "imageJustification": "left"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Mission: Spacex",
+      "imageUrl": "places/MissionSpace.png",
+      "places": [
         {
-            "placeName":"UAP Spaceship",
-            "placeDescription":"A mysterious alien spacecraft with glowing panels, strange symbols, and advanced technology beyond human comprehension, floating silently through the cosmos"
+          "placeName": "UAP Spaceship",
+          "placeDescription": "A mysterious alien spacecraft with glowing panels, strange symbols, and advanced technology beyond human comprehension, floating silently through the cosmos"
         },
         {
-            "placeName":"Alien Hive",
-            "placeDescription":"A bustling extraterrestrial colony with hexagonal chambers, bioluminescent walls, and countless alien beings working in perfect harmony"
+          "placeName": "Alien Hive",
+          "placeDescription": "A bustling extraterrestrial colony with hexagonal chambers, bioluminescent walls, and countless alien beings working in perfect harmony"
         },
-                {
-            "placeName":"Galactic School",
-            "placeDescription":"An orbiting academy with zero-gravity classrooms, holographic teachers, and windows showcasing breathtaking views of distant galaxies where future space heroes train"
+        {
+          "placeName": "Galactic School",
+          "placeDescription": "An orbiting academy with zero-gravity classrooms, holographic teachers, and windows showcasing breathtaking views of distant galaxies where future space heroes train"
         },
-                {
-            "placeName":"Moon Base 44",
-            "placeDescription":"A hidden lunar facility with domed structures, underground tunnels, and advanced research labs, permanently shrouded in darkness on the moon's far side"
+        {
+          "placeName": "Moon Base 44",
+          "placeDescription": "A hidden lunar facility with domed structures, underground tunnels, and advanced research labs, permanently shrouded in darkness on the moon's far side"
         },
-                {
-            "placeName":"LV-312 Planet",
-            "placeDescription":"An exotic exoplanet with purple skies, twin suns, and fascinating creatures that resemble Earth animals but with unique alien adaptations"
+        {
+          "placeName": "LV-312 Planet",
+          "placeDescription": "An exotic exoplanet with purple skies, twin suns, and fascinating creatures that resemble Earth animals but with unique alien adaptations"
         },
-                {
-            "placeName":"Space Station",
-            "placeDescription":"A massive orbital research facility with rotating modules, solar panels stretching like wings, and astronauts conducting groundbreaking experiments in microgravity"
+        {
+          "placeName": "Space Station",
+          "placeDescription": "A massive orbital research facility with rotating modules, solar panels stretching like wings, and astronauts conducting groundbreaking experiments in microgravity"
         }
-
-    ]
-},
-
-{
-    "name":"The Age of Dinosaurs",
-    "imageUrl":"places/AgeOfDinosaurs.png",
-    "places":[
+      ]
+    },
+    {
+      "name": "The Age of Dinosaurs",
+      "imageUrl": "places/AgeOfDinosaurs.png",
+      "places": [
         {
-            "placeName":"Lava Lands",
-            "placeDescription":"A volcanic tropical paradise with steaming lava flows, lush jungle vegetation, and towering dinosaurs roaming among palm trees and black sand beaches"
+          "placeName": "Lava Lands",
+          "placeDescription": "A volcanic tropical paradise with steaming lava flows, lush jungle vegetation, and towering dinosaurs roaming among palm trees and black sand beaches"
         },
         {
-            "placeName":"Raptor's Den",
-            "placeDescription":"A shadowy cave littered with ancient bones, sharp rock formations, and nests where fearsome flying reptiles raise their young amid prehistoric danger"
+          "placeName": "Raptor's Den",
+          "placeDescription": "A shadowy cave littered with ancient bones, sharp rock formations, and nests where fearsome flying reptiles raise their young amid prehistoric danger"
         },
-                {
-            "placeName":"Dinosaur Bay",
-            "placeDescription":"A pristine prehistoric coastline with crystal blue waters, perfect waves, and friendly cavemen riding wooden boards alongside playful marine dinosaurs"
+        {
+          "placeName": "Dinosaur Bay",
+          "placeDescription": "A pristine prehistoric coastline with crystal blue waters, perfect waves, and friendly cavemen riding wooden boards alongside playful marine dinosaurs"
         },
-                {
-            "placeName":"Giggle Grove",
-            "placeDescription":"A lively jungle clearing with stone amphitheater, prehistoric musical instruments, and young dinosaurs and cavemen sharing jokes and stories around glowing crystals"
+        {
+          "placeName": "Giggle Grove",
+          "placeDescription": "A lively jungle clearing with stone amphitheater, prehistoric musical instruments, and young dinosaurs and cavemen sharing jokes and stories around glowing crystals"
         },
-                {
-            "placeName":"Happy Hatchery",
-            "placeDescription":"A remarkable prehistoric ranch with massive nesting areas, incubation caves warmed by hot springs, and gentle cavemen caring for baby pterodactyls learning to fly"
+        {
+          "placeName": "Happy Hatchery",
+          "placeDescription": "A remarkable prehistoric ranch with massive nesting areas, incubation caves warmed by hot springs, and gentle cavemen caring for baby pterodactyls learning to fly"
         },
-                {
-            "placeName":"Rainbow Falls",
-            "placeDescription":"A magnificent cascading waterfall creating perpetual rainbow mists, surrounded by flowering meadows where dinosaurs and cavemen live together in joyful harmony"
+        {
+          "placeName": "Rainbow Falls",
+          "placeDescription": "A magnificent cascading waterfall creating perpetual rainbow mists, surrounded by flowering meadows where dinosaurs and cavemen live together in joyful harmony"
         }
-
-    ]
-},
-
-{
-    "name":"The Days of Miracles",
-    "imageUrl":"places/DaysOfMiracles.png",
-    "places":[
+      ]
+    },
+    {
+      "name": "The Days of Miracles",
+      "imageUrl": "places/DaysOfMiracles.png",
+      "places": [
         {
-            "placeName":"Jerusalem",
-            "placeDescription":"An ancient holy city with stone walls, bustling marketplaces filled with merchants and pilgrims, narrow cobblestone streets, and sacred temples rising toward the heavens"
+          "placeName": "Jerusalem",
+          "placeDescription": "An ancient holy city with stone walls, bustling marketplaces filled with merchants and pilgrims, narrow cobblestone streets, and sacred temples rising toward the heavens"
         },
         {
-            "placeName":"Bethlehem",
-            "placeDescription":"A peaceful town with humble stone buildings, starlit skies, shepherds' fields dotted with sheep, and a sacred stable where miracles began"
+          "placeName": "Bethlehem",
+          "placeDescription": "A peaceful town with humble stone buildings, starlit skies, shepherds' fields dotted with sheep, and a sacred stable where miracles began"
         },
-                {
-            "placeName":"Jerihco",
-            "placeDescription":"An ancient walled city with towering palm trees, bustling with traders and travelers, where faith moved mountains and walls came tumbling down"
+        {
+          "placeName": "Jerihco",
+          "placeDescription": "An ancient walled city with towering palm trees, bustling with traders and travelers, where faith moved mountains and walls came tumbling down"
         },
-                {
-            "placeName":"Fisherman's Bay",
-            "placeDescription":"A tranquil bay with wooden fishing boats bobbing on crystal waters, nets drying in the sun, and fishermen sharing stories of miraculous catches"
+        {
+          "placeName": "Fisherman's Bay",
+          "placeDescription": "A tranquil bay with wooden fishing boats bobbing on crystal waters, nets drying in the sun, and fishermen sharing stories of miraculous catches"
         },
-                {
-            "placeName":"Golden Sand Dunes",
-            "placeDescription":"Endless golden dunes stretching to the horizon, scorching sun by day and star-filled skies by night, where wanderers found faith and strength in the wilderness"
+        {
+          "placeName": "Golden Sand Dunes",
+          "placeDescription": "Endless golden dunes stretching to the horizon, scorching sun by day and star-filled skies by night, where wanderers found faith and strength in the wilderness"
         },
-                {
-            "placeName":"Carpenters Workshop",
-            "placeDescription":"A humble workshop filled with sawdust and wood shavings, hand tools hanging on the walls, the scent of cedar and olive wood, where skilled hands create with love and purpose"
+        {
+          "placeName": "Carpenters Workshop",
+          "placeDescription": "A humble workshop filled with sawdust and wood shavings, hand tools hanging on the walls, the scent of cedar and olive wood, where skilled hands create with love and purpose"
         }
-
-    ]
-},
-
-{
-    "name":"Today's Adventures",
-    "imageUrl":"places/TodaysAdventures.png",
-    "places":[
+      ]
+    },
+    {
+      "name": "Today's Adventures",
+      "imageUrl": "places/TodaysAdventures.png",
+      "places": [
         {
-            "placeName":"School",
-            "placeDescription":"A vibrant school with colorful classrooms, busy hallways filled with lockers and student artwork, playgrounds echoing with laughter, and libraries brimming with knowledge"
+          "placeName": "School",
+          "placeDescription": "A vibrant school with colorful classrooms, busy hallways filled with lockers and student artwork, playgrounds echoing with laughter, and libraries brimming with knowledge"
         },
         {
-            "placeName":"Backyard Campout",
-            "placeDescription":"A cozy backyard transformed into an adventure zone with tents glowing under string lights, campfire crackling, marshmallows roasting, and friends sharing ghost stories under the stars"
+          "placeName": "Backyard Campout",
+          "placeDescription": "A cozy backyard transformed into an adventure zone with tents glowing under string lights, campfire crackling, marshmallows roasting, and friends sharing ghost stories under the stars"
         },
-                {
-            "placeName":"Big City Zoo",
-            "placeDescription":"A bustling city zoo with winding paths through exotic habitats, families watching playful monkeys, majestic lions basking in the sun, and colorful birds singing in tropical aviaries"
+        {
+          "placeName": "Big City Zoo",
+          "placeDescription": "A bustling city zoo with winding paths through exotic habitats, families watching playful monkeys, majestic lions basking in the sun, and colorful birds singing in tropical aviaries"
         },
-                {
-            "placeName":"The Mall",
-            "placeDescription":"A bright modern shopping mall with glass skylights, escalators gliding between floors, stores displaying colorful treasures, food courts buzzing with families, and fountains dancing to music"
+        {
+          "placeName": "The Mall",
+          "placeDescription": "A bright modern shopping mall with glass skylights, escalators gliding between floors, stores displaying colorful treasures, food courts buzzing with families, and fountains dancing to music"
         },
-                {
-            "placeName":"Tree House",
-            "placeDescription":"A magical treehouse nestled high in sturdy branches, with rope ladders, wooden platforms, secret compartments for treasures, and windows overlooking the neighborhood below"
+        {
+          "placeName": "Tree House",
+          "placeDescription": "A magical treehouse nestled high in sturdy branches, with rope ladders, wooden platforms, secret compartments for treasures, and windows overlooking the neighborhood below"
         },
-                {
-            "placeName":"Outdoor Hike",
-            "placeDescription":"A lush forest with winding trails through towering trees, sunbeams filtering through leaves, babbling brooks, wildlife peeking from bushes, and breathtaking mountain views at every turn"
+        {
+          "placeName": "Outdoor Hike",
+          "placeDescription": "A lush forest with winding trails through towering trees, sunbeams filtering through leaves, babbling brooks, wildlife peeking from bushes, and breathtaking mountain views at every turn"
         },
-                {
-            "placeName":"Custom:",
-            "placeDescription":"Create your own unique location with any details you imagine - from underwater cities to cloud kingdoms, let your creativity soar"
+        {
+          "placeName": "Custom:",
+          "placeDescription": "Create your own unique location with any details you imagine - from underwater cities to cloud kingdoms, let your creativity soar"
         }
-
-    ]
-}
-
-
-
-],
-"aiPrompts": {
+      ]
+    }
+  ],
+  "aiPrompts": {
     "description": "AI prompts for story and image generation",
     "storyGeneration": {
-        "basePrompt": "Create a children's story with the following elements:\n\nTitle: Create an engaging, age-appropriate title\n\nCharacters: {characters}\nTime Period: {timePeriod}\nLocation: {locationName} - {locationDescription}\nStory Type: {storyType} - {storyTypeDescription}\nTheme/Lesson: {theme} - {themeDescription}\n{childInfo}\n\nRequirements:\n- Write a complete children's story ({wordCount} words)\n- Make it age-appropriate and engaging for a {ageRange} year old child\n- Include all the specified characters\n- Set the story in the specified time period and location, using the location description to create vivid settings\n- Follow the story type structure: {storyTypeDescription}\n- Incorporate the theme deeply throughout the story: {themeDescription}\n- Use simple, clear language suitable for children\n- Include dialogue and descriptive elements\n- Create a satisfying beginning, middle, and end\n- Ensure the story is positive and educational\n\nFormat your response as:\nTitle: [Story Title]\n\n[Complete story text with paragraphs]",
-        "childInfoTemplate": "Child's Name: {childName}\nAge Range: {ageRange}",
-        "generationConfig": {
-            "temperature": 0.8,
-            "maxOutputTokens": 2048,
-            "topP": 0.95,
-            "topK": 40
-        }
+      "basePrompt": "Create a children's story with the following elements:\n\nTitle: Create an engaging, age-appropriate title\n\nCharacters: {characters}\nTime Period: {timePeriod}\nLocation: {locationName} - {locationDescription}\nStory Type: {storyType} - {storyTypeDescription}\nTheme/Lesson: {theme} - {themeDescription}\n{childInfo}\n\nRequirements:\n- Write a complete children's story ({wordCount} words)\n- Make it age-appropriate and engaging for a {ageRange} year old child\n- Include all the specified characters\n- Set the story in the specified time period and location, using the location description to create vivid settings\n- Follow the story type structure: {storyTypeDescription}\n- Incorporate the theme deeply throughout the story: {themeDescription}\n- Use simple, clear language suitable for children\n- Include dialogue and descriptive elements\n- Create a satisfying beginning, middle, and end\n- Ensure the story is positive and educational\n\nFormat your response as:\nTitle: [Story Title]\n\n[Complete story text with paragraphs]",
+      "childInfoTemplate": "Child's Name: {childName}\nAge Range: {ageRange}",
+      "generationConfig": {
+        "temperature": 0.8,
+        "maxOutputTokens": 2048,
+        "topP": 0.95,
+        "topK": 40
+      }
     },
     "imageGeneration": {
-        "coverPrompt": "Title: \"{title}\"\nStory excerpt: \"{storyExcerpt}...\"\nCharacters: {characters}\nSetting: {locationName} - {locationDescription}\nTime Period: {timePeriod}\nTheme: {theme}\nStory Type: {storyType}\n\nIMPORTANT: Create a vibrant children's book cover with \"{title}\" prominently displayed as decorative text integrated into the image. The title must be clearly readable and part of the artistic design. The setting should reflect: {locationDescription}. Style: Disney/Pixar quality, colorful, whimsical, with rounded shapes and bright colors suitable for children.",
-        "scenePrompt": "Title: \"{title}\"\nStory excerpt: \"{storyExcerpt}...\"\nCharacters: {characters}\nSetting: {locationName} - {locationDescription}\nTime Period: {timePeriod}\nTheme: {theme}\nStory Type: {storyType}\n\nIMPORTANT: Create a detailed story illustration with \"{title}\" artistically integrated at the top. The title should be clearly readable but blend naturally with the scene. The setting should vividly portray: {locationDescription}. Style: warm, inviting children's book illustration with soft edges and magical atmosphere.",
-        "thumbnailPrompt": "Create a vibrant, child-friendly book cover illustration with the title \"{title}\" displayed prominently in decorative, readable text integrated into the image design. At the bottom of the image, make text that says 'Created For' with the childrens name appended. Do not include any other text besides the title and childrens name. Style: Illustration in the style of 1950s Golden Books for children: warm, soft watercolor and gouache painting style with rounded, friendly forms and rich saturated colors including golden yellows, deep blues, and coral pinks. Simple, clean composition with gentle lighting and a cozy, nostalgic feel. Characters should have expressive, kind faces with slightly stylized but realistic proportions. Visible brushstrokes and textural quality, avoiding sharp edges or harsh contrasts. Mid-century children's book aesthetic with a timeless, wholesome charm.",
-        "imageRequirements": "Requirements:\n- Generate a single high-quality image\n- Style: Professional children's book illustration\n- Include vibrant colors and whimsical elements\n- Ensure any text in the image is clearly readable\n- Make it appealing to young readers (ages 4-10)",
-        "generationConfig": {
-            "temperature": 0.8,
-            "maxOutputTokens": 8192,
-            "responseModalities": ["TEXT", "IMAGE"]
-        }
+      "coverPrompt": "Title: \"{title}\"\nStory excerpt: \"{storyExcerpt}...\"\nCharacters: {characters}\nSetting: {locationName} - {locationDescription}\nTime Period: {timePeriod}\nTheme: {theme}\nStory Type: {storyType}\n\nIMPORTANT: Create a vibrant children's book cover with \"{title}\" prominently displayed as decorative text integrated into the image. The title must be clearly readable and part of the artistic design. The setting should reflect: {locationDescription}. Style: Disney/Pixar quality, colorful, whimsical, with rounded shapes and bright colors suitable for children.",
+      "scenePrompt": "Title: \"{title}\"\nStory excerpt: \"{storyExcerpt}...\"\nCharacters: {characters}\nSetting: {locationName} - {locationDescription}\nTime Period: {timePeriod}\nTheme: {theme}\nStory Type: {storyType}\n\nIMPORTANT: Create a detailed story illustration with \"{title}\" artistically integrated at the top. The title should be clearly readable but blend naturally with the scene. The setting should vividly portray: {locationDescription}. Style: warm, inviting children's book illustration with soft edges and magical atmosphere.",
+      "thumbnailPrompt": "Create a vibrant, child-friendly book cover illustration with the title \"{title}\" displayed prominently in decorative, readable text integrated into the image design. At the bottom of the image, make text that says 'Created For' with the childrens name appended. Do not include any other text besides the title and childrens name. Style: Illustration in the style of 1950s Golden Books for children: warm, soft watercolor and gouache painting style with rounded, friendly forms and rich saturated colors including golden yellows, deep blues, and coral pinks. Simple, clean composition with gentle lighting and a cozy, nostalgic feel. Characters should have expressive, kind faces with slightly stylized but realistic proportions. Visible brushstrokes and textural quality, avoiding sharp edges or harsh contrasts. Mid-century children's book aesthetic with a timeless, wholesome charm.",
+      "imageRequirements": "Requirements:\n- Generate a single high-quality image\n- Style: Professional children's book illustration\n- Include vibrant colors and whimsical elements\n- Ensure any text in the image is clearly readable\n- Make it appealing to young readers (ages 4-10)",
+      "generationConfig": {
+        "temperature": 0.8,
+        "maxOutputTokens": 8192,
+        "responseModalities": [
+          "TEXT",
+          "IMAGE"
+        ]
+      }
     }
-},
-"assets": {
+  },
+  "assets": {
     "description": "All image assets used throughout the app that can be remotely updated",
-    
     "avatars": {
-        "description": "Avatar images used for child profiles and character selection",
-        "images": {
-            "AvatarBoy1": "avatars/AvatarBoy1.png",
-            "AvatarBoy2": "avatars/AvatarBoy2.png",
-            "AvatarBoy3": "avatars/AvatarBoy3.png",
-            "AvatarBoy4": "avatars/AvatarBoy4.png",
-            "AvatarBoy5": "avatars/AvatarBoy5.png",
-            "AvatarBoy6": "avatars/AvatarBoy6.png",
-            "AvatarBoy7": "avatars/AvatarBoy7.png",
-            "AvatarBoy8": "avatars/AvatarBoy8.png",
-            "AvatarBoy9": "avatars/AvatarBoy9.png",
-            "AvatarGirl1": "avatars/AvatarGirl1.png",
-            "AvatarGirl2": "avatars/AvatarGirl2.png",
-            "AvatarGirl3": "avatars/AvatarGirl3.png",
-            "AvatarGirl4": "avatars/AvatarGirl4.png",
-            "AvatarGirl5": "avatars/AvatarGirl5.png",
-            "AvatarGirl6": "avatars/AvatarGirl6.png",
-            "AvatarGirl7": "avatars/AvatarGirl7.png",
-            "AvatarGirl8": "avatars/AvatarGirl8.png",
-            "AvatarGirl9": "avatars/AvatarGirl9.png",
-            "AvatarGirl10": "avatars/AvatarGirl10.png",
-            "AvatarGirl11": "avatars/AvatarGirl11.png",
-            "AvatarGirl12": "avatars/AvatarGirl12.png",
-            "AvatarGirl13": "avatars/AvatarGirl13.png",
-            "AvatarGirl14": "avatars/AvatarGirl14.png"
-        }
+      "description": "Avatar images used for child profiles and character selection",
+      "images": {
+        "AvatarBoy1": "avatars/AvatarBoy1.png",
+        "AvatarBoy2": "avatars/AvatarBoy2.png",
+        "AvatarBoy3": "avatars/AvatarBoy3.png",
+        "AvatarBoy4": "avatars/AvatarBoy4.png",
+        "AvatarBoy5": "avatars/AvatarBoy5.png",
+        "AvatarBoy6": "avatars/AvatarBoy6.png",
+        "AvatarBoy7": "avatars/AvatarBoy7.png",
+        "AvatarBoy8": "avatars/AvatarBoy8.png",
+        "AvatarBoy9": "avatars/AvatarBoy9.png",
+        "AvatarGirl1": "avatars/AvatarGirl1.png",
+        "AvatarGirl2": "avatars/AvatarGirl2.png",
+        "AvatarGirl3": "avatars/AvatarGirl3.png",
+        "AvatarGirl4": "avatars/AvatarGirl4.png",
+        "AvatarGirl5": "avatars/AvatarGirl5.png",
+        "AvatarGirl6": "avatars/AvatarGirl6.png",
+        "AvatarGirl7": "avatars/AvatarGirl7.png",
+        "AvatarGirl8": "avatars/AvatarGirl8.png",
+        "AvatarGirl9": "avatars/AvatarGirl9.png",
+        "AvatarGirl10": "avatars/AvatarGirl10.png",
+        "AvatarGirl11": "avatars/AvatarGirl11.png",
+        "AvatarGirl12": "avatars/AvatarGirl12.png",
+        "AvatarGirl13": "avatars/AvatarGirl13.png",
+        "AvatarGirl14": "avatars/AvatarGirl14.png"
+      }
     },
-    
     "backgrounds": {
-        "description": "Background images used across various screens",
-        "images": {
-            "main": "img/BG2.png"
-        }
+      "description": "Background images used across various screens",
+      "images": {
+        "main": "img/BG2.png"
+      }
     },
-    
     "uiElements": {
-        "description": "UI elements and icons used throughout the app",
-        "images": {
-            "logo": "img/logo.png",
-            "logoOnly": "img/logoonly.png",
-            "monsters": "img/monsters.png",
-            "welcomeMonster": "img/welcomemonster.png",
-            "greenMonster": "img/greenmonster.png",
-            "flask": "img/flask.png",
-            "add": "img/add.png",
-            "sparkle": "img/sparkle.png",
-            "storyBook": "img/StoryBook.png",
-            "calendar": "img/calendar.png",
-            "castle": "img/castle.png",
-            "starshipFreighter": "img/starship-freighter.png"
-        }
+      "description": "UI elements and icons used throughout the app",
+      "images": {
+        "logo": "img/logo.png",
+        "logoOnly": "img/logoonly.png",
+        "monsters": "img/monsters.png",
+        "welcomeMonster": "img/welcomemonster.png",
+        "greenMonster": "img/greenmonster.png",
+        "flask": "img/flask.png",
+        "add": "img/add.png",
+        "sparkle": "img/sparkle.png",
+        "storyBook": "img/StoryBook.png",
+        "calendar": "img/calendar.png",
+        "castle": "img/castle.png",
+        "starshipFreighter": "img/starship-freighter.png"
+      }
     },
-    
     "socialLogin": {
-        "description": "Social login provider icons",
-        "images": {
-            "apple": "img/apple.png",
-            "google": "img/google.png"
-        }
+      "description": "Social login provider icons",
+      "images": {
+        "apple": "img/apple.png",
+        "google": "img/google.png"
+      }
     },
-    
     "tabBar": {
-        "description": "Bottom tab bar icons",
-        "images": {
-            "home": "img/homeicon.png",
-            "edit": "img/pencilicon.png",
-            "characters": "img/brainicon.png",
-            "library": "img/booksicon.png"
-        }
+      "description": "Bottom tab bar icons",
+      "images": {
+        "home": "img/homeicon.png",
+        "edit": "img/pencilicon.png",
+        "characters": "img/brainicon.png",
+        "library": "img/booksicon.png"
+      }
     },
-    
     "sectionCards": {
-        "description": "Background images for section cards on home screen",
-        "images": {
-            "characters": "img/characters.png",
-            "library": "img/library.png"
-        }
+      "description": "Background images for section cards on home screen",
+      "images": {
+        "characters": "img/characters.png",
+        "library": "img/library.png"
+      }
     },
-    
     "settings": {
-        "description": "Icons used in settings and profile screens",
-        "images": {
-            "settings": "img/settings.png",
-            "privacy": "img/privacy.png",
-            "terms": "img/terms.png",
-            "support": "img/support.png",
-            "trash": "img/trash.png",
-            "chevronRight": "img/chevron-right.png"
-        }
+      "description": "Icons used in settings and profile screens",
+      "images": {
+        "settings": "img/settings.png",
+        "privacy": "img/privacy.png",
+        "terms": "img/terms.png",
+        "support": "img/support.png",
+        "trash": "img/trash.png",
+        "chevronRight": "img/chevron-right.png"
+      }
     }
-}
+  }
 }
